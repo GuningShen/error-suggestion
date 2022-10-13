@@ -1,0 +1,28 @@
+{
+  "name": "cyverse_tutorial",
+  "version": "1.0.0",
+  "description": "This package analyzes cyverse tutorial logs",
+  "main": "Pull_logs.js",
+  "scripts": {
+    "test": "node Pull_logs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuningShen/cyverse_tutorial.git"
+  },
+  "keywords": [
+    "Cyverse",
+    "Bash"
+  ],
+  "author": "@GuningShen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GuningShen/cyverse_tutorial/issues"
+  },
+  "homepage": "https://github.com/GuningShen/cyverse_tutorial#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "node-localstorage": "^2.2.1"
+  }
+}

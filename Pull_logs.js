@@ -3,27 +3,22 @@ import fs from 'fs'
 import {LocalStorage} from "node-localstorage"
 var localStorage = new LocalStorage('./scratch');
 
-
 //Main:
 
 requestData(); //Only call for the first time to setup localStorage or when updating log data
-const my_log_all = filter_logs('lfy55-test1-12881323', 0, 0, 0, 0, 0); //my_log_all here contains all the logs of userID "lfy55-test1-12881323"
+const my_log_all = filter_logs('gunings-36644677', 0, 0, 0, 0, 0); //my_log_all here contains all the logs of userID "lfy55-test1-12881323"
 console.log(my_log_all); //Have a quick look of what the logs look like, but won't print the full log
 writeArrayToFile(my_log_all); //write the array(my_log_all) to a file called dataArray.txt to see all details
 printAllUserId(); //print out all the userId
 
-
-
-
 //Helper functions below:
-
 // Every time this function is called, it will send a request to the API, fetch all the logs data
 // and store them in a localStorage object, which has all the userId as keys and all the logs of
 // the corresponding userId as values.
 // Only have to call this function for the FIRST time or whenever you want to UPDATE the data in localStorage, Otherwise
 // just use the data stored in localStorage for testing. (Requesting all the logs every time you run the program will be time-consuming)
 function requestData() {
-  const PULL_URL = "https://us-south.functions.appdomain.cloud/api/v1/web/ORG-UNC-dist-seed-james_dev/cyverse/get-cyverse-log";
+  const PULL_URL = "https://us-south.functions.appdomain.cloud/api/v1/…G-UNC-dist-seed-james_dev/cyverse/add-cyverse-log";
   var help_data = {
     body: {
       "log_type": "ChromePlugin",
@@ -36,6 +31,7 @@ function requestData() {
   var headers = {
       "Content-Type": "application/json"
   }
+  
   fetch(PULL_URL, {method: 'POST', headers: headers, body: JSON.stringify(help_data)})
     .then(checkStatus)
     .then(resp => resp.json())
@@ -110,28 +106,22 @@ function local_storage_setup(user_log_arr) {
 function writeArrayToFile(filter) {
   const writeStream = fs.createWriteStream('dataArray.txt');
   const pathName = writeStream.path;
-
   // write each value of the array on the file breaking line
   filter.forEach(value => writeStream.write(`${JSON.stringify(value)}\n`));
-
   // the finish event is emitted when all data has been flushed from the stream
   writeStream.on('finish', () => {
   console.log(`wrote all the array data to file ${pathName}`);
   });
-
   // handle the errors on the write process
   writeStream.on('error', (err) => {
   console.error(`There is an error writing the file ${pathName} => ${err}`)
   });
-
   // close the stream
   writeStream.end();
 }
-
 // Prints out all the current userId
 function printAllUserId() {
   for (let i = 0; i < localStorage.length; i ++) {
     console.log(localStorage.key(i));
   }
 }
-
