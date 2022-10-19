@@ -1,0 +1,55 @@
+,time,Log ID,Course,Log Type,command,file,filename,full_command,stderr,stdout
+0,2022-09-29 19:19:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"data
+home
+stderr.txt
+SuperShell"
+1,2022-09-29 19:20:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,ls,,.,ls .,,"data
+home
+stderr.txt
+SuperShell"
+2,2022-09-29 19:20:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,clear,,,clear,,[H[2J[3J
+3,2022-09-29 19:24:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,cd,,,cd Bash,/home/jovyan/.offline.sh: line 354: cd: Bash: No such file or directory,
+4,2022-09-29 19:24:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,cd,,,cd home,,
+5,2022-09-29 19:24:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"sdgeorge
+shared"
+6,2022-09-29 19:25:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,cd,,..,cd ..,,
+7,2022-09-29 19:25:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,cd,,,cd data,,
+8,2022-09-29 19:25:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"input
+iplant
+output"
+9,2022-09-29 19:25:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,cd,,,cd input/,,
+10,2022-09-29 19:25:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"Bash
+Discovery
+DNASubway
+genome.fas
+RNA_SEQ_SAMPLES"
+11,2022-09-29 19:25:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,cd,,,cd Bash,,
+12,2022-09-29 19:27:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,mkdir,,,mkdir mschild,mkdir: cannot create directory ‘mschild’: Permission denied,
+13,2022-09-29 19:27:00,6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,
+14,2022-10-13 23:59:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls /home/jovyan,,"data
+home
+stderr.txt
+SuperShell"
+15,2022-10-14 00:01:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"data
+home
+stderr.txt
+SuperShell"
+16,2022-10-14 00:01:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls /home/jovyan/RNA_SEQ_SAMPLES,ls: cannot access '/home/jovyan/RNA_SEQ_SAMPLES': No such file or directory,
+17,2022-10-14 00:22:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls home,,"gunings
+shared"
+18,2022-10-14 00:22:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls gunings/RNA_SEQ_SAMPLES,ls: cannot access 'gunings/RNA_SEQ_SAMPLES': No such file or directory,
+19,2022-10-14 00:22:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls /gunings/RNA_SEQ_SAMPLES,ls: cannot access '/gunings/RNA_SEQ_SAMPLES': No such file or directory,
+20,2022-10-14 00:22:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls gunings,ls: cannot access 'gunings': No such file or directory,
+21,2022-10-14 00:22:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,cd,,,cd gunings,/home/jovyan/.offline.sh: line 354: cd: gunings: No such file or directory,
+22,2022-10-14 00:23:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"data
+home
+stderr.txt
+SuperShell"
+23,2022-10-14 00:23:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,cd,,,cd home/gunings,,
+24,2022-10-14 00:23:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway
+PermissionsTest"
+25,2022-10-14 00:23:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,cd,,,cd,,
+26,2022-10-14 00:23:00,3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38,Cyverse-RNA-Tutorial,Bash,ls,,Stdout.txt,ls Stdout.txt,ls: cannot access 'Stdout.txt': No such file or directory,
