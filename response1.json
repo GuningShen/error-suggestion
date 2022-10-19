@@ -1,0 +1,245 @@
+{
+  "logs": [{
+    "_id": "Bash:cb24ee90-447c-4119-9973-6c2305e12abe",
+    "_rev": "292-261a171d16df8e4785c061f2f1ca4dca",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-09-29 19:20:08.685273",
+    "log": {
+      "commands": [{
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-09-29:19:19"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": ".",
+        "full_command": "ls .",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-09-29:19:20"
+      }, {
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2022-09-29:19:20"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Bash",
+        "stderr": "/home/jovyan/.offline.sh: line 354: cd: Bash: No such file or directory",
+        "stdout": "",
+        "time": "2022-09-29:19:24"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd home",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-09-29:19:24"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "sdgeorge\nshared",
+        "time": "2022-09-29:19:24"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-09-29:19:25"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-09-29:19:25"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2022-09-29:19:25"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd input/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-09-29:19:25"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\ngenome.fas\nRNA_SEQ_SAMPLES",
+        "time": "2022-09-29:19:25"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Bash",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-09-29:19:25"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir mschild",
+        "stderr": "mkdir: cannot create directory ‘mschild’: Permission denied",
+        "stdout": "",
+        "time": "2022-09-29:19:27"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-09-29:19:27"
+      }]
+    },
+    "log_id": "6c940b1fbdd022d6db2d5840dfd7207c30a060b05b4353411be02043e60902e7",
+    "log_type": "Bash",
+    "machine_id": "a9321",
+    "session_id": "None",
+    "timestamp": "2022-09-30 01:51:00.512308"
+  }, {
+    "_id": "Bash:f5aed48e-a496-4e85-a508-948584d96f8e",
+    "_rev": "32-48e371b7e24328081573b967ca97b9ac",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-10-13 23:59:31.851513",
+    "log": {
+      "commands": [{
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /home/jovyan",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-10-13:23:59"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-10-14:00:01"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /home/jovyan/RNA_SEQ_SAMPLES",
+        "stderr": "ls: cannot access '/home/jovyan/RNA_SEQ_SAMPLES': No such file or directory",
+        "stdout": "",
+        "time": "2022-10-14:00:01"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls home",
+        "stderr": "",
+        "stdout": "gunings\nshared",
+        "time": "2022-10-14:00:22"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls gunings/RNA_SEQ_SAMPLES",
+        "stderr": "ls: cannot access 'gunings/RNA_SEQ_SAMPLES': No such file or directory",
+        "stdout": "",
+        "time": "2022-10-14:00:22"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /gunings/RNA_SEQ_SAMPLES",
+        "stderr": "ls: cannot access '/gunings/RNA_SEQ_SAMPLES': No such file or directory",
+        "stdout": "",
+        "time": "2022-10-14:00:22"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls gunings",
+        "stderr": "ls: cannot access 'gunings': No such file or directory",
+        "stdout": "",
+        "time": "2022-10-14:00:22"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd gunings",
+        "stderr": "/home/jovyan/.offline.sh: line 354: cd: gunings: No such file or directory",
+        "stdout": "",
+        "time": "2022-10-14:00:22"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-10-14:00:23"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd home/gunings",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-10-14:00:23"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "analyses\nBash\nDiscovery\nDNASubway\nPermissionsTest",
+        "time": "2022-10-14:00:23"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-10-14:00:23"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "Stdout.txt",
+        "full_command": "ls Stdout.txt",
+        "stderr": "ls: cannot access 'Stdout.txt': No such file or directory",
+        "stdout": "",
+        "time": "2022-10-14:00:23"
+      }]
+    },
+    "log_id": "3a15d2c2e44e3c8d8ff99321addf6374e8c7966cbd98d83ad9c159b9e65b4d38",
+    "log_type": "Bash",
+    "machine_id": "a8c71",
+    "session_id": "None",
+    "timestamp": "2022-10-14 00:41:19.065604"
+  }]
+}
