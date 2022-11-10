@@ -1,0 +1,1661 @@
+,time,Log ID,Course,Log Type,Machine ID,command,file,filename,full_command,stderr,stdout,diff_l,diff_wc,new_l,new_wc,old_l,old_wc,total_time(s)
+0,2021-04-19 19:34:00,490cd3ad601e875614199fc11aa5ebe2ad67d289cbe519e3a41d8fbd2f2af05e,Comp-512-Test,Bash,10bcd15c,ls,,,ls,,"SuperShell
+stderr.txt",,,,,,,
+1,2021-04-19 19:35:00,490cd3ad601e875614199fc11aa5ebe2ad67d289cbe519e3a41d8fbd2f2af05e,Comp-512-Test,Bash,10bcd15c,export,,,export $TEST=Hello,/home/supershell/.offline.sh: line 358: export: `=Hello': not a valid identifier,,,,,,,,
+2,2021-04-19 19:35:00,490cd3ad601e875614199fc11aa5ebe2ad67d289cbe519e3a41d8fbd2f2af05e,Comp-512-Test,Bash,10bcd15c,export,,,export $TEST='Hello',/home/supershell/.offline.sh: line 358: export: `=Hello': not a valid identifier,,,,,,,,
+3,2021-04-19 19:36:00,490cd3ad601e875614199fc11aa5ebe2ad67d289cbe519e3a41d8fbd2f2af05e,Comp-512-Test,Bash,10bcd15c,export,,,export PATH=$PATH:$HOME/bin,,,,,,,,,
+4,2021-04-19 19:36:00,490cd3ad601e875614199fc11aa5ebe2ad67d289cbe519e3a41d8fbd2f2af05e,Comp-512-Test,Bash,10bcd15c,export,,,export PATH=$PATH:test/bin,,,,,,,,,
+5,2021-04-19 19:36:00,490cd3ad601e875614199fc11aa5ebe2ad67d289cbe519e3a41d8fbd2f2af05e,Comp-512-Test,Bash,10bcd15c,echo,,,echo $PATH,,/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin,,,,,,,
+6,2022-09-29 18:52:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,clear,,,clear,,[H[2J[3J,,,,,,,
+7,2022-09-29 18:53:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,pwd,,,pwd,,/home/jovyan,,,,,,,
+8,2022-09-29 18:53:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,echo,,,echo $PATH,,/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin,,,,,,,
+9,2022-09-29 18:54:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,hostname,,,hostname,,ac9d01872,,,,,,,
+10,2022-09-29 18:54:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,pwd,,,pwd,,/home/jovyan,,,,,,,
+11,2022-09-29 18:56:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,ls,,,ls,,"data
+home
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+12,2022-09-29 18:57:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,ls,,,ls /home/jovyan,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+13,2022-09-29 19:00:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,clear,,,clear,,[H[2J[3J,,,,,,,
+14,2022-09-29 19:00:00,33bb76e6130caab90d89f35542de42c1be3a0f364190f6e3645cd8f03613c1ab,Comp-512-Test,Bash,ac9d0,ls,,,ls,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+15,2022-09-11 18:18:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls /home/jovyan,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+16,2022-09-11 18:27:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"data
+home
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+17,2022-09-11 18:27:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,..,ls ..,,jovyan,,,,,,,
+18,2022-09-11 18:27:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls /home/jovyan/RNA_SEQ_SAMPLES,ls: cannot access '/home/jovyan/RNA_SEQ_SAMPLES': No such file or directory,,,,,,,,
+19,2022-09-11 18:28:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"data
+home
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+20,2022-09-11 18:28:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home,,,,,,,,,
+21,2022-09-11 18:28:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+22,2022-09-11 18:28:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls /gunings/RNA_SEQ_SAMPLES,ls: cannot access '/gunings/RNA_SEQ_SAMPLES': No such file or directory,,,,,,,,
+23,2022-09-11 18:29:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+24,2022-09-11 18:29:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd gunings,,,,,,,,,
+25,2022-09-11 18:29:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+26,2022-09-11 18:30:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,..,cd ..,,,,,,,,,
+27,2022-09-11 18:30:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+28,2022-09-11 18:30:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd shared,,,,,,,,,
+29,2022-09-11 18:30:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd sdgeorge,/home/jovyan/.offline.sh: line 344: cd: sdgeorge: No such file or directory,,,,,,,,
+30,2022-09-11 18:30:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"aegis
+aes
+ag2pi_workshop
+AG2PI_Workshop_May2021
+app_data
+araport
+Astrolabe
+azgs
+bighorn_fire
+Bioinformatics_Resource_Centers
+BioViz
+Botany2020NMGWorkshop
+Brassica_dwarf
+c3c4
+CAP_TCN
+CHEESEHEAD
+cnoutsos_evo_seminar
+commons_repo
+csb472
+cyverse_training
+danforth_center
+digbio
+dillpicl
+earthenv_dem_data
+EarVision_maize_kernel_image_data
+eDNA_Explorer
+eht
+frnakenseq_approved
+gea
+G-OnRamp_hubs
+GoreLab
+imicrobe
+iplant_assembly_test_data
+iplant_cbp_sample_data
+iplantcollaborative
+iplant_DNA_subway
+iplant_kobas
+iplant_public_test
+iplant_training
+iplant_uk_training
+iVirus
+KBase_staging
+Legume_Federation
+legume_wgd
+magnoliagrandiFLORA
+NAM
+nappn
+NASA_GeneLab_data
+ncsu-plantreplication
+NEON
+NEON_aop_workshop
+NEON_Pilot
+ofo
+onekp_pilot
+osm
+osu-entangled-genomes
+panzea
+pcc_tcn
+phytooracle
+planetmicrobe
+plant_phenotype_ontology_data
+plantreplication2
+publictemp
+santa_cruz_river
+sbl_sdsc
+scRNA-Seq_Working_Group
+SEPA_microbiome_2016
+soynomics
+srer-wgew
+syngenta_sim
+TCIA
+terraref
+tonikazic
+Trinity_transdecoder_trinotate_databases
+ual
+uk_data_commons
+umn-zed
+uncc-wings
+unc_phyto_isolates
+UNLPlantVision
+USD_teaching_materials
+usgs
+virome_subject
+visualization-working-group
+walia_rice_salt
+workshop_material",,,,,,,
+31,2022-09-11 18:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,..,ls ..,,"gunings
+shared",,,,,,,
+32,2022-09-11 18:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,..,cd ..,,,,,,,,,
+33,2022-09-11 18:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+34,2022-09-11 18:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,..,cd ..,,,,,,,,,
+35,2022-09-11 18:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+36,2022-09-11 18:33:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,"stdout,txt.","ls stdout,txt.","ls: cannot access 'stdout,txt.': No such file or directory",,,,,,,,
+37,2022-09-11 18:33:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,stdout.txt,stdout.txt,ls stdout.txt,,stdout.txt,,,,,,,
+38,2022-09-11 18:35:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls RNAt,ls: cannot access 'RNAt': No such file or directory,,,,,,,,
+39,2022-09-11 18:37:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls RNA,ls: cannot access 'RNA': No such file or directory,,,,,,,,
+40,2022-09-11 18:37:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls RNA^t,ls: cannot access 'RNA^t': No such file or directory,,,,,,,,
+41,2022-09-11 18:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls RNA^t,ls: cannot access 'RNA^t': No such file or directory,,,,,,,,
+42,2022-09-11 18:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+43,2022-09-11 18:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home,,,,,,,,,
+44,2022-09-11 18:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+45,2022-09-11 18:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd gunings,,,,,,,,,
+46,2022-09-11 18:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+47,2022-09-11 18:52:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls -l Discovery/,,"total 0
+drwx------ 1 jovyan 1000 0 Sep 9 00:02 FilteredSortedOutput
+drwx------ 1 jovyan 1000 0 Sep 9 00:02 RNASequenceOutput
+drwx------ 1 jovyan 1000 0 Sep 9 00:02 TSVFiles
+drwx------ 1 jovyan 1000 0 Sep 9 00:02 UncompressedSamples",,,,,,,
+48,2022-09-11 18:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls Discovery/TSVFiles,,"A_1_abundance.tsv
+A_2_abundance.tsv
+B_1_abundance.tsv
+B_2_abundance.tsv",,,,,,,
+49,2022-09-11 18:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,history,,,history,," 1 ls /home/jovyan
+ 2 ls
+ 3 ls ..
+ 4 ls /home/jovyan/RNA_SEQ_SAMPLES
+ 5 ls
+ 6 cd home
+ 7 ls
+ 8 ls /gunings/RNA_SEQ_SAMPLES
+ 9 shelp
+ 10 ls
+ 11 cd gunings
+ 12 ls
+ 13 cd ..
+ 14 ls
+ 15 cd shared
+ 16 cd sdgeorge
+ 17 ls
+ 18 ls ..
+ 19 cd ..
+ 20 ls
+ 21 cd ..
+ 22 ls
+ 23 ls stdout,txt.
+ 24 ls stdout.txt
+ 25 ls RNAt
+ 26 ls RNA
+ 27 ls RNA^t
+ 28 ls RNA^t
+ 29 ls
+ 30 cd home
+ 31 ls
+ 32 cd gunings
+ 33 ls
+ 34 ls -l Discovery/
+ 35 ls Discovery/TSVFiles
+ 36 history",,,,,,,
+50,2022-09-11 18:54:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+51,2022-09-11 18:57:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls –l,ls: cannot access '–l': No such file or directory,,,,,,,,
+52,2022-09-11 18:57:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls -l,,"total 0
+drwx------ 1 jovyan 1000 0 Sep 7 20:26 analyses
+drwx------ 1 jovyan 1000 0 Sep 8 23:45 Bash
+drwx------ 1 jovyan 1000 0 Sep 9 00:02 Discovery
+drwx------ 1 jovyan 1000 0 Sep 7 13:55 DNASubway",,,,,,,
+53,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls –l stdout.txt,"ls: cannot access '–l': No such file or directory
+ls: cannot access 'stdout.txt': No such file or directory",,,,,,,,
+54,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+55,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,..,cd ..,,,,,,,,,
+56,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+57,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,..,cd ..,,,,,,,,,
+58,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+59,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls –l stdout.txt,ls: cannot access '–l': No such file or directory,stdout.txt,,,,,,,
+60,2022-09-11 19:17:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls -l stdout.txt,,-rw-r--r-- 1 jovyan 1000 0 Sep 11 19:17 stdout.txt,,,,,,,
+61,2022-09-11 19:19:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+62,2022-09-11 19:19:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd SuperShell,,,,,,,,,
+63,2022-09-11 19:19:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"add_interactive.sh
+codehelper.sh
+consent.txt
+courseid.txt
+cyverse_install.sh
+disable_help.sh
+docker_install.sh
+enable_help.sh
+flowchart.png
+images
+install.sh
+interactive.txt
+LICENSE
+linux_install.sh
+mac_install.sh
+mail.txt
+offline.sh
+offline_with_online.sh
+push_events.sh
+README.md
+ruledir.txt
+shell2.sh
+shell.sh
+StatParam
+supershellhelpmessage.txt
+supershellhelp.txt
+SuperShellHistory
+supershellinfo.txt
+SuperShellRules
+TestSender2.jar
+TestSender.jar
+title.txt
+Towards a Helpful Shell_ Scenarios and Commands.pdf",,,,,,,
+64,2022-09-11 19:38:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd images,,,,,,,,,
+65,2022-09-11 19:38:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+66,2022-09-11 19:38:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan,,,,,,,
+67,2022-09-11 19:38:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd SuperShell,,,,,,,,,
+68,2022-09-11 19:38:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd St,/home/jovyan/.offline.sh: line 344: cd: St: No such file or directory,,,,,,,,
+69,2022-09-11 19:39:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd S^t,/home/jovyan/.offline.sh: line 344: cd: S^t: No such file or directory,,,,,,,,
+70,2022-09-11 19:39:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"add_interactive.sh
+codehelper.sh
+consent.txt
+courseid.txt
+cyverse_install.sh
+disable_help.sh
+docker_install.sh
+enable_help.sh
+flowchart.png
+images
+install.sh
+interactive.txt
+LICENSE
+linux_install.sh
+mac_install.sh
+mail.txt
+offline.sh
+offline_with_online.sh
+push_events.sh
+README.md
+ruledir.txt
+shell2.sh
+shell.sh
+StatParam
+supershellhelpmessage.txt
+supershellhelp.txt
+SuperShellHistory
+supershellinfo.txt
+SuperShellRules
+TestSender2.jar
+TestSender.jar
+title.txt
+Towards a Helpful Shell_ Scenarios and Commands.pdf",,,,,,,
+71,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan/SuperShell,,,,,,,
+72,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+73,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+74,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd /home/jovyan/RNA_SEQ_SAMPLES/Drug_B,/home/jovyan/.offline.sh: line 344: cd: /home/jovyan/RNA_SEQ_SAMPLES/Drug_B: No such file or directory,,,,,,,,
+75,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+76,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+77,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd /home/gunings/RNA_SEQ_SAMPLES/Drug_B,/home/jovyan/.offline.sh: line 344: cd: /home/gunings/RNA_SEQ_SAMPLES/Drug_B: No such file or directory,,,,,,,,
+78,2022-09-11 19:46:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+79,2022-09-11 19:47:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home,,,,,,,,,
+80,2022-09-11 19:47:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+81,2022-09-11 19:47:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd gunings,,,,,,,,,
+82,2022-09-11 19:47:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+83,2022-09-11 19:47:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd DNASubway,,,,,,,,,
+84,2022-09-11 19:47:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,project-8866,,,,,,,
+85,2022-09-11 19:49:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,which,,,which ls,,/bin/ls,,,,,,,
+86,2022-09-11 19:50:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,which,,,which cd,,,,,,,,,
+87,2022-09-11 19:50:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,which,,,which which,,/usr/bin/which,,,,,,,
+88,2022-09-11 19:50:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,which,,,which pwd,,/bin/pwd,,,,,,,
+89,2022-09-11 19:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,which,,,which echo,,/bin/echo,,,,,,,
+90,2022-09-11 19:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,project-8866,,,,,,,
+91,2022-09-11 19:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+92,2022-09-11 19:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+93,2022-09-11 19:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+94,2022-09-11 19:52:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd SuperShell,,,,,,,,,
+95,2022-09-11 19:52:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd SuperShellHistory,,,,,,,,,
+96,2022-09-11 19:52:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"start.json
+SuperShellHistory-2022-09-11.json",,,,,,,
+97,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+98,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+99,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home,,,,,,,,,
+100,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"gunings
+shared",,,,,,,
+101,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd gunings,,,,,,,,,
+102,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+103,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd DNASubway,,,,,,,,,
+104,2022-09-11 19:53:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,project-8866,,,,,,,
+105,2022-09-11 20:02:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,project-8866,,,,,,,
+106,2022-09-11 20:02:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+107,2022-09-11 20:02:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+108,2022-09-11 20:02:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+109,2022-09-11 20:02:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd SuperShell,,,,,,,,,
+110,2022-09-11 20:02:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"add_interactive.sh
+codehelper.sh
+consent.txt
+courseid.txt
+cyverse_install.sh
+disable_help.sh
+docker_install.sh
+enable_help.sh
+flowchart.png
+images
+install.sh
+interactive.txt
+LICENSE
+linux_install.sh
+mac_install.sh
+mail.txt
+offline.sh
+offline_with_online.sh
+push_events.sh
+README.md
+ruledir.txt
+shell2.sh
+shell.sh
+StatParam
+supershellhelpmessage.txt
+supershellhelp.txt
+SuperShellHistory
+supershellinfo.txt
+SuperShellRules
+TestSender2.jar
+TestSender.jar
+title.txt
+Towards a Helpful Shell_ Scenarios and Commands.pdf",,,,,,,
+111,2022-09-11 20:03:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+112,2022-09-11 20:03:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+113,2022-09-11 20:03:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd /home/gunings,/home/jovyan/.offline.sh: line 344: cd: /home/gunings: No such file or directory,,,,,,,,
+114,2022-09-11 20:03:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home/gunings,,,,,,,,,
+115,2022-09-11 20:03:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"analyses
+Bash
+Discovery
+DNASubway",,,,,,,
+116,2022-09-11 20:03:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd Bash,,,,,,,,,
+117,2022-09-11 20:04:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir misc,,,,,,,,,
+118,2022-09-11 20:04:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc,,,,,,,
+119,2022-09-11 20:04:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd misc,,,,,,,,,
+120,2022-09-11 20:04:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir misc_child,,,,,,,,,
+121,2022-09-11 20:04:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir misc_child/misc_child_child,,,,,,,,,
+122,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc_child,,,,,,,
+123,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd misc_child,,,,,,,,,
+124,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc_child_child,,,,,,,
+125,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir misc_child_child/misc_child_child_child,,,,,,,,,
+126,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc_child_child,,,,,,,
+127,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd misc_child_child,,,,,,,,,
+128,2022-09-11 20:05:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc_child_child_child,,,,,,,
+129,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,../../../,cd ../../../,,,,,,,,,
+130,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc,,,,,,,
+131,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+132,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan,,,,,,,
+133,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+134,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home/gunings/Bash,,,,,,,,,
+135,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,misc,,,,,,,
+136,2022-09-11 20:06:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir UncompressedSamples,,,,,,,,,
+137,2022-09-11 20:07:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir FilteredSortedOutput,,,,,,,,,
+138,2022-09-11 20:07:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir TSVFiles,,,,,,,,,
+139,2022-09-11 20:07:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir PermissionsTest,,,,,,,,,
+140,2022-09-11 20:07:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir bin,,,,,,,,,
+141,2022-09-11 20:07:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"bin
+FilteredSortedOutput
+misc
+PermissionsTest
+TSVFiles
+UncompressedSamples",,,,,,,
+142,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd FilteredSortedOutput,,,,,,,,,
+143,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,,,,,,,,
+144,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir Advanced,,,,,,,,,
+145,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd,,,,,,,,,
+146,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd PermissionsTest,/home/jovyan/.offline.sh: line 344: cd: PermissionsTest: No such file or directory,,,,,,,,
+147,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"allsuggestions.txt
+data
+home
+numberedsuggestions.txt
+stderr.txt
+stdout.txt
+SuperShell
+tmpsuggestions.txt",,,,,,,
+148,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd home/gunings/Bash,,,,,,,,,
+149,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"bin
+FilteredSortedOutput
+misc
+PermissionsTest
+TSVFiles
+UncompressedSamples",,,,,,,
+150,2022-09-11 20:08:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd PermissionsTest,,,,,,,,,
+151,2022-09-11 20:09:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mkdir,,,mkdir PermissionsChild,,,,,,,,,
+152,2022-09-11 20:09:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,PermissionsChild,,,,,,,
+153,2022-09-11 20:09:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,..,cd ..,,,,,,,,,
+154,2022-09-11 20:09:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"bin
+FilteredSortedOutput
+misc
+PermissionsTest
+TSVFiles
+UncompressedSamples",,,,,,,
+155,2022-09-11 20:09:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd misc,,,,,,,,,
+156,2022-09-11 20:11:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pico,"hello
+world",hello.txt,,,,2.0,2.0,2.0,2.0,0.0,0.0,104.0
+157,2022-09-11 20:11:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pico,"goodbye beautiful
+world",goobye.txt,,,,2.0,3.0,2.0,3.0,0.0,0.0,21.0
+158,2022-09-11 20:12:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan/home/gunings/Bash/misc,,,,,,,
+159,2022-09-11 20:13:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt,,"hello
+world",,,,,,,
+160,2022-09-11 20:13:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt goodbye.txt,cat: goodbye.txt: No such file or directory,"hello
+world",,,,,,,
+161,2022-09-11 20:13:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"goobye.txt
+hello.txt
+misc_child",,,,,,,
+162,2022-09-11 20:13:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt goobye.txt,,"hello
+world
+goodbye beautiful
+world",,,,,,,
+163,2022-09-11 20:20:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,,,cat,,"abc
+
+def",,,,,,,
+164,2022-09-11 20:22:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls > ls.out,,,,,,,,,
+165,2022-09-11 20:23:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt goodbye.txt > hello_goodbye.txt,cat: goodbye.txt: No such file or directory,,,,,,,,
+166,2022-09-11 20:24:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt goobye.txt > hello_goodbye.txt,,,,,,,,,
+167,2022-09-11 20:24:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,hello.txt,,goodbye.txt,hello.txt goodbye.txt,/home/jovyan/.offline.sh: line 358: hello.txt: command not found,,,,,,,,
+168,2022-09-11 20:24:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"goobye.txt
+hello_goodbye.txt
+hello.txt
+ls.out
+misc_child",,,,,,,
+169,2022-09-11 20:24:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,hello_goodbye.txt,,,hello_goodbye.txt,/home/jovyan/.offline.sh: line 358: hello_goodbye.txt: command not found,,,,,,,,
+170,2022-09-11 20:24:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,,,cat < hello.txt,,"hello
+world",,,,,,,
+171,2022-09-11 20:25:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,,,cat > cat.out,,,,,,,,,
+172,2022-09-11 20:25:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"cat.out
+goobye.txt
+hello_goodbye.txt
+hello.txt
+ls.out
+misc_child",,,,,,,
+173,2022-09-11 20:26:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,,,cat < hello.txt > hello_copy.txt,,,,,,,,,
+174,2022-09-11 20:26:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"cat.out
+goobye.txt
+hello_copy.txt
+hello_goodbye.txt
+hello.txt
+ls.out
+misc_child",,,,,,,
+175,2022-09-11 20:28:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt goodbye.txt > hello_goodbye.txt,cat: goodbye.txt: No such file or directory,,,,,,,,
+176,2022-09-11 20:39:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"cat.out
+goobye.txt
+hello_copy.txt
+hello_goodbye.txt
+hello.txt
+ls.out
+misc_child",,,,,,,
+177,2022-09-13 13:25:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cd,,,cd misc_child/cd ..,/home/jovyan/.offline.sh: line 344: cd: too many arguments,,,,,,,,
+178,2022-09-13 13:26:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan/home/gunings/Bash/misc,,,,,,,
+179,2022-09-13 13:26:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,,,echo “hello world”,,“hello world”,,,,,,,
+180,2022-09-13 13:26:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,,,echo 1 2,,1 2,,,,,,,
+181,2022-09-13 13:26:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,,,echo “hello world” > misc_child/echo.out,,,,,,,,,
+182,2022-09-13 13:28:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,,,echo “goodbye world” > misc_child/echo_output.txt,,,,,,,,,
+183,2022-09-13 13:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,,,echo “hello world” >> misc_child/echo_output.txt,,,,,,,,,
+184,2022-09-13 13:32:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello.txt,cat hello.txt goodbye.txt hello_goodbye.txt ls.out cat,"cat: goodbye.txt: No such file or directory
+cat: cat: No such file or directory","hello
+world
+hello
+world
+goobye.txt
+hello.txt
+ls.out
+misc_child",,,,,,,
+185,2022-09-13 13:33:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,,,cat ~/Bash/misc/*,cat: '/home/jovyan/Bash/misc/*': No such file or directory,,,,,,,,
+186,2022-09-13 13:33:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"This is cat input
+More cat input",cat.out,cat cat.out goobye.txt hello_copy.txt hello_goodbye.txt hello.txt ls.out misc_child,cat: misc_child: Is a directory,"This is cat input
+More cat input
+goodbye beautiful
+world
+hello
+world
+hello
+world
+hello
+world
+goobye.txt
+hello.txt
+ls.out
+misc_child",,,,,,,
+187,2022-09-13 13:33:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan/home/gunings/Bash/misc,,,,,,,
+188,2022-09-13 13:34:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"goodbye beautiful
+world",goobye.txt,cat goobye.txt hello_copy.txt hello_goodbye.txt hello.txt,,"goodbye beautiful
+world
+hello
+world
+hello
+world
+hello
+world",,,,,,,
+189,2022-09-13 13:34:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cat,"hello
+world",hello_copy.txt,cat hello_copy.txt hello_goodbye.txt hello.txt,,"hello
+world
+hello
+world
+hello
+world",,,,,,,
+190,2022-09-13 13:35:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls –l ~/*.log,"ls: cannot access '–l': No such file or directory
+ls: cannot access '/home/jovyan/*.log': No such file or directory",,,,,,,,
+191,2022-09-13 13:35:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls -l ~/*.log,ls: cannot access '/home/jovyan/*.log': No such file or directory,,,,,,,,
+192,2022-09-13 13:35:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,pwd,,,pwd,,/home/jovyan/home/gunings/Bash/misc,,,,,,,
+193,2022-09-13 13:35:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,"This is cat input
+More cat input",cat.out,echo cat.out goobye.txt hello_copy.txt hello_goodbye.txt hello.txt ls.out misc_child,,cat.out goobye.txt hello_copy.txt hello_goodbye.txt hello.txt ls.out misc_child,,,,,,,
+194,2022-09-13 13:36:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,echo,,~/*.txt,echo ~/*.txt,,/home/jovyan/allsuggestions.txt /home/jovyan/numberedsuggestions.txt /home/jovyan/stderr.txt /home/jovyan/tmpsuggestions.txt,,,,,,,
+195,2022-09-13 13:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cp,,goodbye.txt,cp goodbye.txt copied_ goodbye.txt,cp: target 'goodbye.txt' is not a directory,,,,,,,,
+196,2022-09-13 13:51:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cp,"goodbye beautiful
+world",goobye.txt,cp goobye.txt copied_goodbye.txt,,,,,,,,,
+197,2022-09-13 13:54:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mv,,goobye.txt,mv goobye.txt renamed_goodbye.txt,,,,,,,,,
+198,2022-09-13 13:55:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ls,,,ls,,"cat.out
+copied_goodbye.txt
+hello_copy.txt
+hello_goodbye.txt
+hello.txt
+ls.out
+misc_child
+renamed_goodbye.txt",,,,,,,
+199,2022-09-13 13:55:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,mv,,goodbye.txt,mv goodbye.txt misc_child,mv: cannot stat 'goodbye.txt': No such file or directory,,,,,,,,
+200,2022-09-13 13:56:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,ln,,,ln –s hello.txt linked _hello.txt,ln: target '_hello.txt' is not a directory,,,,,,,,
+201,2022-09-13 14:04:00,8067d36662ba1f8b6d7e2281fb338c35f016d2f2e72b2e09bb010bd323e89970,Comp-512-Test,Bash,a80ca,cp,,,cp -r misc_child copied misc_child,"cp: cannot copy a directory, 'misc_child', into itself, 'misc_child/misc_child'
+cp: cannot stat 'copied': No such file or directory",,,,,,,,
+202,2021-04-18 20:05:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan,,,,,,,
+203,2021-04-18 20:05:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Bash,,,,,,,,,
+204,2021-04-18 20:05:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd bin,,,,,,,,,
+205,2021-04-18 20:05:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,ReadLoop.sh,,,,,,,
+206,2021-04-18 20:10:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,echo,,,echo $PATH,,/home/jovyan/Bash/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin,,,,,,,
+207,2021-04-18 20:12:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,echo,,,echo PATH,,PATH,,,,,,,
+208,2021-04-18 20:19:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,echo,,,echo $HOME,,/home/jovyan,,,,,,,
+209,2021-04-18 20:47:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,ReadLoop.sh,,,,,,,
+210,2021-04-18 20:51:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,nano,,grep_head_tail,,,,1.0,9.0,1.0,9.0,0.0,0.0,214.0
+211,2021-04-18 20:51:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,which,,,which grep_head_tail,,,,,,,,,
+212,2021-04-18 20:52:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,chmod,,,chmod a+x grep_head_tail,,,,,,,,,
+213,2021-04-18 20:53:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,which,,,which ls -l grep_head_tail,,"/bin/ls
+/home/jovyan/Bash/bin/grep_head_tail",,,,,,,
+214,2021-04-18 20:53:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"grep_head_tail
+ReadLoop.sh",,,,,,,
+215,2021-04-18 20:54:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls -l,,"total 8
+-rwxr-xr-x 1 jovyan 1000 55 Apr 18 20:51 grep_head_tail
+-rwxr-xr-x 1 jovyan 1000 163 Apr 18 19:51 ReadLoop.sh",,,,,,,
+216,2021-04-18 20:54:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls -l grep_head_tail,,-rwxr-xr-x 1 jovyan 1000 55 Apr 18 20:51 grep_head_tail,,,,,,,
+217,2021-04-18 20:58:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/bin,,,,,,,
+218,2021-04-18 20:58:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,../,cd ../,,,,,,,,,
+219,2021-04-18 20:58:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"bin
+Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+Jupyter_RNA_Notebook_analysis1-2021-04-16-00-34-12.7",,,,,,,
+220,2021-04-18 20:58:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir TSVFiles,,,,,,,,,
+221,2021-04-18 20:58:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd TSVFiles,,,,,,,,,
+222,2021-04-18 20:58:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls ~/Discovery/TSVFiles/,,"A_1_abundance.tsv
+A_2_abundance.tsv
+B_1_abundance.tsv
+B_2_abundance.tsv",,,,,,,
+223,2021-04-18 20:59:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ln,,,ln -s ~/Discovery/TSVFiles/A_1_abundance.tsv A_1_abundance.tsv,,,,,,,,,
+224,2021-04-18 20:59:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls -l,,"total 0
+lrwxrwxrwx 1 jovyan 1000 49 Apr 18 20:59 A_1_abundance.tsv -> /home/jovyan/Discovery/TSVFiles/A_1_abundance.tsv",,,,,,,
+225,2021-04-18 21:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,..,cd ..,,,,,,,,,
+226,2021-04-18 21:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir FilteredSortedOutput,,,,,,,,,
+227,2021-04-18 21:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd TSVFiles,,,,,,,,,
+228,2021-04-18 21:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,A_1_abundance.tsv,,,,,,,
+229,2021-04-18 21:01:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ln,,,ln -s ~/Discovery/TSVFiles/A_2_abundance.tsv A_1_abundance.tsv,ln: failed to create symbolic link 'A_1_abundance.tsv': File exists,,,,,,,,
+230,2021-04-18 21:01:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ln,,,ln -s ~/Discovery/TSVFiles/A_2_abundance.tsv A_2_abundance.tsv,,,,,,,,,
+231,2021-04-18 21:03:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,grep_head_tail,,,grep_head_tail < A_1_abundance.tsv > ../FilteredSortedOutput/Second25_1_GrepedSecond.tsv,,,,,,,,,
+232,2021-04-18 21:03:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cat,"ENST00000391826.6	1863	1788.08	0	0
+ENST00000391415.1	1157	1082.08	0	0
+ENST00000391366.3	1783	1708.08	0	0
+ENST00000391713.5	3562	3487.08	0	0
+ENST00000391958.6	2784	2709.08	0	0
+ENST00000391854.6	5104	5029.08	0	0
+ENST00000391898.7	5263	5188.08	0	0
+ENST00000391946.6	1780	1705.08	0	0
+ENST00000391969.6	2526	2451.08	0	0
+ENST00000391770.8	3056	2981.08	0	0
+ENST00000391769.2	3186	3111.08	0	0
+ENST00000391768.2	1492	1417.08	0	0
+ENST00000391771.1	3111	3036.08	0	0
+ENST00000391614.7	508	433.077	0	0
+ENST00000391797.3	1391	1316.08	0	0
+ENST00000391959.5	15431	15356.1	0	0
+ENST00000391916.6	2834	2759.08	0	0
+ENST00000391837.7	738	663.077	0	0
+ENST00000391867.7	685	610.077	0	0
+ENST00000391781.6	6074	5999.08	0	0
+ENST00000391795.7	2698	2623.08	0	0
+ENST00000391726.7	609	534.077	0	0
+ENST00000391725.7	830	755.077	0	0
+ENST00000391723.7	754	679.077	0	0
+ENST00000391724.3	762	687.077	0	0",../FilteredSortedOutput/Second25_1_GrepedSecond.tsv,cat ../FilteredSortedOutput/Second25_1_GrepedSecond.tsv,,"ENST00000391826.6	1863	1788.08	0	0
+ENST00000391415.1	1157	1082.08	0	0
+ENST00000391366.3	1783	1708.08	0	0
+ENST00000391713.5	3562	3487.08	0	0
+ENST00000391958.6	2784	2709.08	0	0
+ENST00000391854.6	5104	5029.08	0	0
+ENST00000391898.7	5263	5188.08	0	0
+ENST00000391946.6	1780	1705.08	0	0
+ENST00000391969.6	2526	2451.08	0	0
+ENST00000391770.8	3056	2981.08	0	0
+ENST00000391769.2	3186	3111.08	0	0
+ENST00000391768.2	1492	1417.08	0	0
+ENST00000391771.1	3111	3036.08	0	0
+ENST00000391614.7	508	433.077	0	0
+ENST00000391797.3	1391	1316.08	0	0
+ENST00000391959.5	15431	15356.1	0	0
+ENST00000391916.6	2834	2759.08	0	0
+ENST00000391837.7	738	663.077	0	0
+ENST00000391867.7	685	610.077	0	0
+ENST00000391781.6	6074	5999.08	0	0
+ENST00000391795.7	2698	2623.08	0	0
+ENST00000391726.7	609	534.077	0	0
+ENST00000391725.7	830	755.077	0	0
+ENST00000391723.7	754	679.077	0	0
+ENST00000391724.3	762	687.077	0	0",,,,,,,
+233,2021-04-18 21:06:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,grep_head_tail,,,grep_head_tail < A_2_abundance.tsv > ../FilteredSortedOutput/Second25_2_GrepedSecond.tsv,,,,,,,,,
+234,2021-04-18 22:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/TSVFiles,,,,,,,
+235,2021-04-18 22:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,..,cd ..,,,,,,,,,
+236,2021-04-18 22:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"bin
+FilteredSortedOutput
+Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+Jupyter_RNA_Notebook_analysis1-2021-04-16-00-34-12.7
+TSVFiles",,,,,,,
+237,2021-04-18 22:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd bin,,,,,,,,,
+238,2021-04-18 22:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"grep_head_tail
+ReadLoop.sh",,,,,,,
+239,2021-04-18 22:04:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,nano,,directory_grep_head_tail,,,,7.0,17.0,7.0,17.0,0.0,0.0,24.0
+240,2021-04-18 22:04:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,chmod,,,chmod a+x directory_grep_head_tail,,,,,,,,,
+241,2021-04-18 22:05:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,directory_grep_head_tail,,,directory_grep_head_tail ~/Discovery/TSVFiles ~/Bash/FilteredSortedOutput,"/home/jovyan/Bash/bin/directory_grep_head_tail: line 4: /home/jovyan/Bash/FilteredSortedOutput/: Is a directory
+cat: /home/jovyan/Bash/FilteredSortedOutput/Second25_A_1_abundance.tsv: No such file or directory
+/home/jovyan/Bash/bin/directory_grep_head_tail: line 4: /home/jovyan/Bash/FilteredSortedOutput/: Is a directory
+cat: /home/jovyan/Bash/FilteredSortedOutput/Second25_A_2_abundance.tsv: No such file or directory",,,,,,,,
+242,2021-04-18 22:05:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,which,,,which directory_grep_head_tail,,/home/jovyan/Bash/bin/directory_grep_head_tail,,,,,,,
+243,2021-04-18 22:08:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/bin,,,,,,,
+244,2021-04-18 22:08:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls ~/Bash/FilteredSortedOutput/,,"Second25_1_GrepedSecond.tsv
+Second25_2_GrepedSecond.tsv",,,,,,,
+245,2021-04-18 22:08:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cat,,,cat directory_grep_head_tail,,"cd $1
+for tsv_file in A_1_abundance.tsv A_2_abundance.tsv;
+do
+grep_head_tail < $tsv_file > $2/ Second25_$tsv_file;
+cat $2/Second25_$tsv_file;
+done",,,,,,,
+246,2021-04-18 22:09:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,directory_grep_head_tail,,,directory_grep_head_tail ~/Discovery/TSVFiles ~/Bash/FilteredSortedOutput,,"ENST00000391826.6	1863	1788.08	0	0
+ENST00000391415.1	1157	1082.08	0	0
+ENST00000391366.3	1783	1708.08	0	0
+ENST00000391713.5	3562	3487.08	0	0
+ENST00000391958.6	2784	2709.08	0	0
+ENST00000391854.6	5104	5029.08	0	0
+ENST00000391898.7	5263	5188.08	0	0
+ENST00000391946.6	1780	1705.08	0	0
+ENST00000391969.6	2526	2451.08	0	0
+ENST00000391770.8	3056	2981.08	0	0
+ENST00000391769.2	3186	3111.08	0	0
+ENST00000391768.2	1492	1417.08	0	0
+ENST00000391771.1	3111	3036.08	0	0
+ENST00000391614.7	508	433.077	0	0
+ENST00000391797.3	1391	1316.08	0	0
+ENST00000391959.5	15431	15356.1	0	0
+ENST00000391916.6	2834	2759.08	0	0
+ENST00000391837.7	738	663.077	0	0
+ENST00000391867.7	685	610.077	0	0
+ENST00000391781.6	6074	5999.08	0	0
+ENST00000391795.7	2698	2623.08	0	0
+ENST00000391726.7	609	534.077	0	0
+ENST00000391725.7	830	755.077	0	0
+ENST00000391723.7	754	679.077	0	0
+ENST00000391724.3	762	687.077	0	0
+ENST00000391826.6	1863	1788.08	0	0
+ENST00000391415.1	1157	1082.08	0	0
+ENST00000391366.3	1783	1708.08	0	0
+ENST00000391713.5	3562	3487.08	0	0
+ENST00000391958.6	2784	2709.08	0	0
+ENST00000391854.6	5104	5029.08	0	0
+ENST00000391898.7	5263	5188.08	0	0
+ENST00000391946.6	1780	1705.08	0	0
+ENST00000391969.6	2526	2451.08	0	0
+ENST00000391770.8	3056	2981.08	0	0
+ENST00000391769.2	3186	3111.08	0	0
+ENST00000391768.2	1492	1417.08	0	0
+ENST00000391771.1	3111	3036.08	0	0
+ENST00000391614.7	508	433.08	0	0
+ENST00000391797.3	1391	1316.08	0	0
+ENST00000391959.5	15431	15356.1	0	0
+ENST00000391916.6	2834	2759.08	0	0
+ENST00000391837.7	738	663.08	0	0
+ENST00000391867.7	685	610.08	0	0
+ENST00000391781.6	6074	5999.08	0	0
+ENST00000391795.7	2698	2623.08	0	0
+ENST00000391726.7	609	534.08	0	0
+ENST00000391725.7	830	755.08	0	0
+ENST00000391723.7	754	679.08	0	0
+ENST00000391724.3	762	687.08	0	0",,,,,,,
+247,2021-04-18 22:10:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls ~/Bash/FilteredSortedOutput/,,"Second25_1_GrepedSecond.tsv
+Second25_2_GrepedSecond.tsv
+Second25_A_1_abundance.tsv
+Second25_A_2_abundance.tsv",,,,,,,
+248,2021-04-19 00:12:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/bin,,,,,,,
+249,2021-04-19 00:14:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,nano,,directory_grep_head_tail,,,,1.0,4.0,8.0,20.0,7.0,16.0,105.0
+250,2021-04-19 00:14:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,directory_grep_head_tail,,,directory_grep_head_tail ~/Discovery/TSVFiles ~/Bash/FilteredSortedOutput,,"ENST00000391826.6	1863	1788.08	0	0
+ENST00000391415.1	1157	1082.08	0	0
+ENST00000391366.3	1783	1708.08	0	0
+ENST00000391713.5	3562	3487.08	0	0
+ENST00000391958.6	2784	2709.08	0	0
+ENST00000391854.6	5104	5029.08	0	0
+ENST00000391898.7	5263	5188.08	0	0
+ENST00000391946.6	1780	1705.08	0	0
+ENST00000391969.6	2526	2451.08	0	0
+ENST00000391770.8	3056	2981.08	0	0
+ENST00000391769.2	3186	3111.08	0	0
+ENST00000391768.2	1492	1417.08	0	0
+ENST00000391771.1	3111	3036.08	0	0
+ENST00000391614.7	508	433.077	0	0
+ENST00000391797.3	1391	1316.08	0	0
+ENST00000391959.5	15431	15356.1	0	0
+ENST00000391916.6	2834	2759.08	0	0
+ENST00000391837.7	738	663.077	0	0
+ENST00000391867.7	685	610.077	0	0
+ENST00000391781.6	6074	5999.08	0	0
+ENST00000391795.7	2698	2623.08	0	0
+ENST00000391726.7	609	534.077	0	0
+ENST00000391725.7	830	755.077	0	0
+ENST00000391723.7	754	679.077	0	0
+ENST00000391724.3	762	687.077	0	0
+ENST00000391826.6	1863	1788.08	0	0
+ENST00000391415.1	1157	1082.08	0	0
+ENST00000391366.3	1783	1708.08	0	0
+ENST00000391713.5	3562	3487.08	0	0
+ENST00000391958.6	2784	2709.08	0	0
+ENST00000391854.6	5104	5029.08	0	0
+ENST00000391898.7	5263	5188.08	0	0
+ENST00000391946.6	1780	1705.08	0	0
+ENST00000391969.6	2526	2451.08	0	0
+ENST00000391770.8	3056	2981.08	0	0
+ENST00000391769.2	3186	3111.08	0	0
+ENST00000391768.2	1492	1417.08	0	0
+ENST00000391771.1	3111	3036.08	0	0
+ENST00000391614.7	508	433.08	0	0
+ENST00000391797.3	1391	1316.08	0	0
+ENST00000391959.5	15431	15356.1	0	0
+ENST00000391916.6	2834	2759.08	0	0
+ENST00000391837.7	738	663.08	0	0
+ENST00000391867.7	685	610.08	0	0
+ENST00000391781.6	6074	5999.08	0	0
+ENST00000391795.7	2698	2623.08	0	0
+ENST00000391726.7	609	534.08	0	0
+ENST00000391725.7	830	755.08	0	0
+ENST00000391723.7	754	679.08	0	0
+ENST00000391724.3	762	687.08	0	0
+ENST00000391826.6	1863	1788.16	0	0
+ENST00000391415.1	1157	1082.16	0	0
+ENST00000391366.3	1783	1708.16	0	0
+ENST00000391713.5	3562	3487.16	0	0
+ENST00000391958.6	2784	2709.16	0	0
+ENST00000391854.6	5104	5029.16	0	0
+ENST00000391898.7	5263	5188.16	0	0
+ENST00000391946.6	1780	1705.16	0	0
+ENST00000391969.6	2526	2451.16	0	0
+ENST00000391770.8	3056	2981.16	0	0
+ENST00000391769.2	3186	3111.16	0	0
+ENST00000391768.2	1492	1417.16	0	0
+ENST00000391771.1	3111	3036.16	0	0
+ENST00000391614.7	508	433.156	0	0
+ENST00000391797.3	1391	1316.16	0	0
+ENST00000391959.5	15431	15356.2	0	0
+ENST00000391916.6	2834	2759.16	0	0
+ENST00000391837.7	738	663.156	0	0
+ENST00000391867.7	685	610.156	0	0
+ENST00000391781.6	6074	5999.16	0	0
+ENST00000391795.7	2698	2623.16	0	0
+ENST00000391726.7	609	534.156	0	0
+ENST00000391725.7	830	755.156	0	0
+ENST00000391723.7	754	679.156	0	0
+ENST00000391724.3	762	687.156	0	0
+ENST00000391826.6	1863	1788.16	0	0
+ENST00000391415.1	1157	1082.16	0	0
+ENST00000391366.3	1783	1708.16	0	0
+ENST00000391713.5	3562	3487.16	0	0
+ENST00000391958.6	2784	2709.16	0	0
+ENST00000391854.6	5104	5029.16	0	0
+ENST00000391898.7	5263	5188.16	0	0
+ENST00000391946.6	1780	1705.16	0	0
+ENST00000391969.6	2526	2451.16	0	0
+ENST00000391770.8	3056	2981.16	0	0
+ENST00000391769.2	3186	3111.16	0	0
+ENST00000391768.2	1492	1417.16	0	0
+ENST00000391771.1	3111	3036.16	0	0
+ENST00000391614.7	508	433.156	0	0
+ENST00000391797.3	1391	1316.16	0	0
+ENST00000391959.5	15431	15356.2	0	0
+ENST00000391916.6	2834	2759.16	0	0
+ENST00000391837.7	738	663.156	0	0
+ENST00000391867.7	685	610.156	0	0
+ENST00000391781.6	6074	5999.16	0	0
+ENST00000391795.7	2698	2623.16	0	0
+ENST00000391726.7	609	534.156	0	0
+ENST00000391725.7	830	755.156	0	0
+ENST00000391723.7	754	679.156	0	0
+ENST00000391724.3	762	687.156	0	0",,,,,,,
+251,2021-04-19 12:59:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,nano,,EchoCounts,,,,4.0,12.0,4.0,12.0,0.0,0.0,30.0
+252,2021-04-19 12:59:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,chmod,,,chmod a+x EchoCounts,,,,,,,,,
+253,2021-04-19 13:00:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,EchoCounts,,,"EchoCounts ""countup""",,"countup:1
+countup:2
+countup:3
+countup:4
+countup:5",,,,,,,
+254,2021-04-19 13:18:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Bash,,,,,,,,,
+255,2021-04-19 13:18:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"bin
+FilteredSortedOutput
+Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+Jupyter_RNA_Notebook_analysis1-2021-04-16-00-34-12.7
+TSVFiles",,,,,,,
+256,2021-04-19 13:19:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir RNASeqOutput,,,,,,,,,
+257,2021-04-19 13:19:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,../Discovery,cd ../Discovery,,,,,,,,,
+258,2021-04-19 13:19:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"FilteredSortedOutput
+RNASequenceOutput
+TSVFiles
+UncompressedSamples",,,,,,,
+259,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Discovery,,,,,,,
+260,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,..,cd ..,,,,,,,,,
+261,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"Bash
+Discovery
+DNASubway
+downloads.stderr.log
+downloads.stdout.log
+RNA_SEQ_SAMPLES
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+262,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd RNA_SEQ_SAMPLES/,,,,,,,,,
+263,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"Drug_A
+Drug_B",,,,,,,
+264,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Drug_A,,,,,,,,,
+265,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"Drug_A_1.fastq
+Drug_A_1.fastq.gz
+Drug_A_2.fastq
+Drug_A_2.fastq.gz",,,,,,,
+266,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/RNA_SEQ_SAMPLES/Drug_A,,,,,,,
+267,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,..,cd ..,,,,,,,,,
+268,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,..,cd ..,,,,,,,,,
+269,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"Bash
+Discovery
+DNASubway
+downloads.stderr.log
+downloads.stdout.log
+RNA_SEQ_SAMPLES
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+270,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Bash,,,,,,,,,
+271,2021-04-19 13:20:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"bin
+FilteredSortedOutput
+Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+Jupyter_RNA_Notebook_analysis1-2021-04-16-00-34-12.7
+RNASeqOutput
+TSVFiles",,,,,,,
+272,2021-04-19 13:21:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir UncompressedSamples,,,,,,,,,
+273,2021-04-19 13:21:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd,,,,,,,,,
+274,2021-04-19 13:23:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,gunzip,,,gunzip < ~/RNA_SEQ_SAMPLES/Drug_A/Drug_A_1.fastq.gz > ~/Bash/UncompressedSamples/,/home/jovyan/.offline.sh: line 358: /home/jovyan/Bash/UncompressedSamples/: Is a directory,,,,,,,,
+275,2021-04-19 13:23:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan,,,,,,,
+276,2021-04-19 13:23:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Bash,,,,,,,,,
+277,2021-04-19 13:23:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"bin
+FilteredSortedOutput
+Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+Jupyter_RNA_Notebook_analysis1-2021-04-16-00-34-12.7
+RNASeqOutput
+TSVFiles
+UncompressedSamples",,,,,,,
+278,2021-04-19 13:23:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd UncompressedSamples/,,,,,,,,,
+279,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir Drug_A,,,,,,,,,
+280,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir Drug_B,,,,,,,,,
+281,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,gunzip,,,gunzip < ~/RNA_SEQ_SAMPLES/Drug_A/Drug_A_1.fastq.gz > ~/Bash/UncompressedSamples/Drug_A/Drug_A_1.fastq,,,,,,,,,
+282,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/UncompressedSamples,,,,,,,
+283,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"Drug_A
+Drug_B",,,,,,,
+284,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Drug_A,,,,,,,,,
+285,2021-04-19 13:24:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,Drug_A_1.fastq,,,,,,,
+286,2021-04-19 13:25:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls -l,,"total 3592
+-rw-r--r-- 1 jovyan 1000 3677295 Apr 19 13:24 Drug_A_1.fastq",,,,,,,
+287,2021-04-19 13:25:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,gunzip,,,gunzip < ~/RNA_SEQ_SAMPLES/Drug_A/Drug_A_1.fastq.gz > ~/Bash/UncompressedSamples/Drug_A/Drug_A_1.fastq,,,,,,,,,
+288,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan,,,,,,,
+289,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Bash,,,,,,,,,
+290,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash,,,,,,,
+291,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd RNASeqOutput/,,,,,,,,,
+292,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,,,,,,,,
+293,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir Drug_A,,,,,,,,,
+294,2021-04-19 13:31:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mkdir,,,mkdir Drug_B,,,,,,,,,
+295,2021-04-19 14:12:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,fastx_trimmer,,,fastx_trimmer < ~/Bash/UncompressedSamples/Drug_A/Drug_A_1.fastq > ~/Bash/RNASeqOutput/Drug_A/Drug_A_1.fq.trimmed,,,,,,,,,
+296,2021-04-19 14:14:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,fastx_trimmer,,,fastx_trimmer -m 20 -f 1 < ~/Bash/UncompressedSamples/Drug_A/Drug_A_1.fastq > ~/Bash/RNASeqOutput/Drug_A/Drug_A_1.fq.trimmed,,,,,,,,,
+297,2021-04-19 14:16:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/RNASeqOutput,,,,,,,
+298,2021-04-19 14:16:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Drug_A,,,,,,,,,
+299,2021-04-19 14:16:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,Drug_A_1.fq.trimmed,,,,,,,
+300,2021-04-19 14:17:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,fastq_quality_filter,,,fastq_quality_filter -q 50 < Drug_A_1.fq.trimmed > Drug_A_1.fq.filtered,,,,,,,,,
+301,2021-04-19 14:17:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"Drug_A_1.fq.filtered
+Drug_A_1.fq.trimmed",,,,,,,
+302,2021-04-19 14:17:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls -l,,"total 7184
+-rw-r--r-- 1 jovyan 1000 3677295 Apr 19 14:17 Drug_A_1.fq.filtered
+-rw-r--r-- 1 jovyan 1000 3677295 Apr 19 14:14 Drug_A_1.fq.trimmed",,,,,,,
+303,2021-04-19 14:28:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash/RNASeqOutput/Drug_A,,,,,,,
+304,2021-04-19 14:29:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls -l ~/Discovery,,"total 0
+drwxr-sr-x 2 jovyan 1000 37 Apr 18 15:37 FilteredSortedOutput
+drwxr-sr-x 4 jovyan 1000 46 Apr 18 15:37 RNASequenceOutput
+drwxr-sr-x 2 jovyan 1000 126 Apr 18 15:37 TSVFiles
+drwxr-sr-x 4 jovyan 1000 46 Apr 18 15:37 UncompressedSamples",,,,,,,
+305,2021-04-19 20:55:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd ~/Bash,,,,,,,,,
+306,2021-04-19 20:55:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"bin
+FilteredSortedOutput
+Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+Jupyter_RNA_Notebook_analysis1-2021-04-16-00-34-12.7
+RNASeqOutput
+TSVFiles
+UncompressedSamples",,,,,,,
+307,2021-04-19 23:56:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,history,,,history,," 1 pwd
+ 2 cd Bash
+ 3 pwd
+ 4 cd RNASeqOutput/
+ 5 ls
+ 6 mkdir Drug_A
+ 7 mkdir Drug_B
+ 8 fastx_trimmer < ~/Bash/UncompressedSamples/Drug_A/Drug_A_1.fastq > ~/Bash/RNASeqOutput/Drug_A/Drug_A_1.fq.trimmed
+ 9 fastx_trimmer -m 20 -f 1 < ~/Bash/UncompressedSamples/Drug_A/Drug_A_1.fastq > ~/Bash/RNASeqOutput/Drug_A/Drug_A_1.fq.trimmed
+ 10 pwd
+ 11 cd Drug_A
+ 12 ls
+ 13 fastq_quality_filter -q 50 < Drug_A_1.fq.trimmed > Drug_A_1.fq.filtered
+ 14 ls
+ 15 ls -l
+ 16 pwd
+ 17 ls -l ~/Discovery
+ 18 cd ~/Bash
+ 19 ls
+ 20 history",,,,,,,
+308,2021-04-19 23:57:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd Bash,/home/jovyan/.offline.sh: line 344: cd: Bash: No such file or directory,,,,,,,,
+309,2021-04-19 23:57:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,pwd,,,pwd,,/home/jovyan/Bash,,,,,,,
+310,2021-04-19 23:57:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,cd,,,cd bin,,,,,,,,,
+311,2021-04-19 23:57:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,ls,,,ls,,"directory_grep_head_tail
+EchoCounts
+grep_head_tail
+ReadLoop.sh",,,,,,,
+312,2021-04-20 00:04:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,nano,,my_fast_x,,,,1.0,12.0,1.0,12.0,0.0,0.0,242.0
+313,2021-04-20 00:04:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,mv,,,mv my_fast_x my_fastx,,,,,,,,,
+314,2021-04-20 00:04:00,2f3c04c9be3cc02268104e419f0c962bc674e4e7411c8c0f67b34f11f89fc398,Comp-512-Test,Bash,96f9246a-4423-42ce-a9d9-4d8c7e170714-dfb488dcc-g,chmod,,,chmod a+x my_fastx,,,,,,,,,
+315,2022-09-29 18:52:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,clear,,,clear,,[H[2J[3J,,,,,,,
+316,2022-09-29 18:53:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,pwd,,,pwd,,/home/jovyan,,,,,,,
+317,2022-09-29 18:53:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,echo,,,echo $PATH,,/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin,,,,,,,
+318,2022-09-29 18:54:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,hostname,,,hostname,,ac9d01872,,,,,,,
+319,2022-09-29 18:54:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,pwd,,,pwd,,/home/jovyan,,,,,,,
+320,2022-09-29 18:56:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,ls,,,ls,,"data
+home
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+321,2022-09-29 18:57:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,ls,,,ls /home/jovyan,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+322,2022-09-29 19:00:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,clear,,,clear,,[H[2J[3J,,,,,,,
+323,2022-09-29 19:00:00,d255305150a0d892434887745e969de6e48e7d48bc7f84a362951001d7f6c31c,Comp-512-Test,Bash,ac9d0,ls,,,ls,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+324,2022-09-29 18:52:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,clear,,,clear,,[H[2J[3J,,,,,,,
+325,2022-09-29 18:53:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,pwd,,,pwd,,/home/jovyan,,,,,,,
+326,2022-09-29 18:53:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,echo,,,echo $PATH,,/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin,,,,,,,
+327,2022-09-29 18:54:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,hostname,,,hostname,,ac9d01872,,,,,,,
+328,2022-09-29 18:54:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,pwd,,,pwd,,/home/jovyan,,,,,,,
+329,2022-09-29 18:56:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,ls,,,ls,,"data
+home
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+330,2022-09-29 18:57:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,ls,,,ls /home/jovyan,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+331,2022-09-29 19:00:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,clear,,,clear,,[H[2J[3J,,,,,,,
+332,2022-09-29 19:00:00,8a0d5bed0152303242b9094ce32098e117fc8f1a7169e69df2cee99ad9d8ec3c,Comp-512-Test,Bash,ac9d0,ls,,,ls,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+333,2021-04-21 20:31:00,586def0e79609c5554f12ed168ac1962c0d12e7d9ef87a91fdd02406c65dcd24,Comp-512-Test,Bash,39d81881,nano,,test.txt,,,,0.0,0.0,0.0,0.0,0.0,0.0,4.0
+334,2021-04-21 20:31:00,586def0e79609c5554f12ed168ac1962c0d12e7d9ef87a91fdd02406c65dcd24,Comp-512-Test,Bash,39d81881,ls,,,ls,,"SuperShell
+stderr.txt
+stdout.txt
+test.txt",,,,,,,
+335,2021-04-21 20:31:00,586def0e79609c5554f12ed168ac1962c0d12e7d9ef87a91fdd02406c65dcd24,Comp-512-Test,Bash,39d81881,rm,,-i,,,,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+336,2021-04-21 20:31:00,586def0e79609c5554f12ed168ac1962c0d12e7d9ef87a91fdd02406c65dcd24,Comp-512-Test,Bash,39d81881,ls,,,ls,,"SuperShell
+stderr.txt
+stdout.txt",,,,,,,
+337,2021-04-21 20:34:00,586def0e79609c5554f12ed168ac1962c0d12e7d9ef87a91fdd02406c65dcd24,Comp-512-Test,Bash,39d81881,touch,,test.txt,touch test.txt,,,,,,,,,
+338,2021-04-21 20:34:00,586def0e79609c5554f12ed168ac1962c0d12e7d9ef87a91fdd02406c65dcd24,Comp-512-Test,Bash,39d81881,ls,,,ls,,"SuperShell
+stderr.txt
+stdout.txt",,,,,,,
+339,2022-03-02 20:57:00,0f26ab18818b468595373cc657917cfbbedacc14b7d4ff041a49b0aeb5a2f4c6,Comp-512-Test,Bash,ae94e,ls,,,ls /home/jovyan/,,"data
+home
+stderr.txt
+SuperShell",,,,,,,
+340,2022-03-02 20:58:00,0f26ab18818b468595373cc657917cfbbedacc14b7d4ff041a49b0aeb5a2f4c6,Comp-512-Test,Bash,ae94e,ls,,,ls /home/jovyan/data,,"input
+output",,,,,,,
+341,2021-04-16 13:38:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"Bash
+Discovery
+DNASubway
+downloads.stderr.log
+downloads.stdout.log
+RNA_SEQ_SAMPLES
+stderr.txt
+SuperShell",,,,,,,
+342,2021-04-16 13:39:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd Bash,,,,,,,,,
+343,2021-04-16 13:39:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9",,,,,,,
+344,2021-04-16 13:39:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,..,cd ..,,,,,,,,,
+345,2021-04-16 13:39:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd Bash,,,,,,,,,
+346,2021-04-16 13:39:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,mkdir,,,mkdir misc,,,,,,,,,
+347,2021-04-16 13:39:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+misc",,,,,,,
+348,2021-04-16 13:40:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,echo “hello world”,,“hello world”,,,,,,,
+349,2021-04-16 13:41:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,echo 1 2,,1 2,,,,,,,
+350,2021-04-16 18:35:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan/Bash,,,,,,,
+351,2021-04-16 18:35:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd misc,,,,,,,,,
+352,2021-04-16 18:35:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,,,,,,,,
+353,2021-04-16 18:40:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,"echo ""hellonworld"" > hello.txt",,,,,,,,,
+354,2021-04-16 18:40:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,hellonworld,hello.txt,cat hello.txt,,hellonworld,,,,,,,
+355,2021-04-16 18:41:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,"echo ""hello
+world"" > hello.txt",,,,,,,,,
+356,2021-04-16 18:42:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,"hello
+world",hello.txt,echo hello.txt,,hello.txt,,,,,,,
+357,2021-04-16 18:42:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,printf,"hello
+world",hello.txt,printf hello.txt,,hello.txt,,,,,,,
+358,2021-04-16 18:43:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,print,,,print *n,"Error: no such file ""*n""",,,,,,,,
+359,2021-04-16 18:43:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,printf,"hello
+world",hello.txt,printf hello.txt n,,hello.txt,,,,,,,
+360,2021-04-16 18:44:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,printf,,,"printf ""hellonworldn""",,hellonworldn,,,,,,,
+361,2021-04-16 18:45:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,"echo -e ""hellonworld""",,hellonworld,,,,,,,
+362,2021-04-16 18:45:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,"echo $""hellonworld""",,hellonworld,,,,,,,
+363,2021-04-16 18:46:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,echo $'hellonworld',,hellonworld,,,,,,,
+364,2021-04-16 18:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,nano,"hello
+world",hello.txt,,,,1.0,1.0,2.0,2.0,1.0,1.0,61.0
+365,2021-04-16 18:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,nano,"goodbye beautiful
+world",goodbye.txt,,,,2.0,3.0,2.0,3.0,0.0,0.0,25.0
+366,2021-04-16 18:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,"hello
+world",hello.txt,cat hello.txt goodbye.txt > hello_goodbye.txt,,,,,,,,,
+367,2021-04-16 18:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls > ls_out.txt,,,,,,,,,
+368,2021-04-16 18:58:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"goodbye.txt
+hello_goodbye.txt
+hello.txt
+ls_out.txt",,,,,,,
+369,2021-04-16 18:59:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,mkdir,,,mkdir misc_child,,,,,,,,,
+370,2021-04-16 21:34:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,,,cat > cat_out.txt,,,,,,,,,
+371,2021-04-16 21:38:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"cat_out.txt
+goodbye.txt
+hello_goodbye.txt
+hello.txt
+ls_out.txt
+misc_child",,,,,,,
+372,2021-04-16 21:38:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,"This is cat input
+More cat input",cat_out.txt,echo cat_out.txt goodbye.txt hello_goodbye.txt hello.txt ls_out.txt misc_child,,cat_out.txt goodbye.txt hello_goodbye.txt hello.txt ls_out.txt misc_child,,,,,,,
+373,2021-04-16 21:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd,,,,,,,,,
+374,2021-04-16 21:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,~/*.log,ls ~/*.log,,"/home/jovyan/downloads.stderr.log
+/home/jovyan/downloads.stdout.log",,,,,,,
+375,2021-04-16 22:42:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan,,,,,,,
+376,2021-04-16 22:42:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd Bash,,,,,,,,,
+377,2021-04-16 22:43:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd misc,,,,,,,,,
+378,2021-04-16 22:43:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"cat_out.txt
+goodbye.txt
+hello_goodbye.txt
+hello.txt
+ls_out.txt
+misc_child",,,,,,,
+379,2021-04-16 22:44:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ln,,,ln -s goodbye.txt misc_child,,,,,,,,,
+380,2021-04-16 22:44:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls misc_child,,goodbye.txt,,,,,,,
+381,2021-04-16 22:44:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l misc_child,,"total 0
+lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:44 goodbye.txt -> goodbye.txt",,,,,,,
+382,2021-04-16 22:44:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ln,,,ln -s goodbye.txt link_goodbye.txt,,,,,,,,,
+383,2021-04-16 22:45:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l link_goodbye.txt,,lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:44 link_goodbye.txt -> goodbye.txt,,,,,,,
+384,2021-04-16 22:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,"echo ""!!"" >> goodbye.txt",,,,,,,,,
+385,2021-04-16 22:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,"goodbye beautiful
+world
+!!",goodbye.txt,cat goodbye.txt,,"goodbye beautiful
+world
+!!",,,,,,,
+386,2021-04-16 22:54:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"cat_out.txt
+goodbye.txt
+hello_goodbye.txt
+hello.txt
+link_goodbye.txt
+ls_out.txt
+misc_child",,,,,,,
+387,2021-04-16 22:54:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,"goodbye beautiful
+world
+!!",link_goodbye.txt,cat link_goodbye.txt,,"goodbye beautiful
+world
+!!",,,,,,,
+388,2021-04-16 22:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls misc_child,,goodbye.txt,,,,,,,
+389,2021-04-16 22:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,,misc_child/goodbye.txt,cat misc_child/goodbye.txt,cat: misc_child/goodbye.txt: Too many levels of symbolic links,,,,,,,,
+390,2021-04-16 22:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ll,,misc_child/goodbye.txt,ll misc_child/goodbye.txt,/home/jovyan/.offline.sh: line 358: ll: command not found,,,,,,,,
+391,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l misch_child/goodbye.txt,ls: cannot access 'misch_child/goodbye.txt': No such file or directory,,,,,,,,
+392,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd misc_child,,,,,,,,,
+393,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,goodbye.txt,,,,,,,
+394,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,,goodbye.txt,cat goodbye.txt,cat: goodbye.txt: Too many levels of symbolic links,,,,,,,,
+395,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ll,,,ll,/home/jovyan/.offline.sh: line 358: ll: command not found,,,,,,,,
+396,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l,,"total 0
+lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:44 goodbye.txt -> goodbye.txt",,,,,,,
+397,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,rm,,goodbye.txt,rm goodbye.txt,,,,,,,,,
+398,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,..,cd ..,,,,,,,,,
+399,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"cat_out.txt
+goodbye.txt
+hello_goodbye.txt
+hello.txt
+link_goodbye.txt
+ls_out.txt
+misc_child",,,,,,,
+400,2021-04-16 22:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ln,,,ln -s goodbye.txt misc_child,,,,,,,,,
+401,2021-04-16 22:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l misc_child,,"total 0
+lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:56 goodbye.txt -> goodbye.txt",,,,,,,
+402,2021-04-16 23:05:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cp,"goodbye beautiful
+world
+!!",goodbye.txt,cp goodbye.txt copied_goodbye.txt,,,,,,,,,
+403,2021-04-16 23:05:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye beautiful
+world",goodbye.txt,,,,-1.0,-1.0,2.0,3.0,3.0,4.0,13.0
+404,2021-04-16 23:06:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye beautiful
+world",goodbye.txt,diff goodbye.txt copied_goodbye.txt,,"2a3
+> !!",,,,,,,
+405,2021-04-16 23:10:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye beautiful
+world
+!!",copied_goodbye.txt,diff copied_goodbye.txt goodbye.txt,,"3d2
+< !!",,,,,,,
+406,2021-04-16 23:13:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,,,"cat ""!!!!"" > goodbye.txt",cat: '!!!!': No such file or directory,,,,,,,,
+407,2021-04-16 23:13:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,echo,,,"echo ""!!!!"" >> goodbye.txt",,,,,,,,,
+408,2021-04-16 23:13:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,!!!!,goodbye.txt,cat goodbye.txt,,!!!!,,,,,,,
+409,2021-04-16 23:13:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,!!!!,link_goodbye.txt,cat link_goodbye.txt,,!!!!,,,,,,,
+410,2021-04-16 23:15:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye beautiful
+world
+!!!!",goodbye.txt,,,,2.0,3.0,3.0,4.0,1.0,1.0,55.0
+411,2021-04-16 23:15:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,"goodbye beautiful
+world
+!!!!",link_goodbye.txt,cat link_goodbye.txt,,"goodbye beautiful
+world
+!!!!",,,,,,,
+412,2021-04-16 23:15:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye beautiful
+world
+!!!!",goodbye.txt,diff goodbye.txt copied_goodbye.txt,,"3c3
+< !!!!
+---
+> !!",,,,,,,
+413,2021-04-16 23:16:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye beautiful
+world",goodbye.txt,,,,-1.0,-1.0,2.0,3.0,3.0,4.0,16.0
+414,2021-04-16 23:16:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye beautiful
+world
+!!!!",goodbye.txt,,,,1.0,1.0,3.0,4.0,2.0,3.0,10.0
+415,2021-04-16 23:17:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye beautiful
+world",copied_goodbye.txt,,,,-1.0,-1.0,2.0,3.0,3.0,4.0,13.0
+416,2021-04-16 23:17:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye beautiful
+world
+!!!!",goodbye.txt,diff goodbye.txt copied_goodbye.txt,,"3d2
+< !!!!",,,,,,,
+417,2021-04-16 23:17:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye beautiful
+world",copied_goodbye.txt,diff copied_goodbye.txt goodbye.txt,,"2a3
+> !!!!",,,,,,,
+418,2021-04-16 23:19:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye wonderful
+world!",goodbye.txt,,,,-1.0,-1.0,2.0,3.0,3.0,4.0,33.0
+419,2021-04-16 23:19:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,,goodbye.text,diff goodbye.text copied_goodbye.txt,diff: goodbye.text: No such file or directory,,,,,,,,
+420,2021-04-16 23:19:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye wonderful
+world!",goodbye.txt,diff goodbye.txt copied_goodbye.txt,,"1,2c1,2
+< goodbye wonderful
+< world!
+---
+> goodbye beautiful
+> world",,,,,,,
+421,2021-04-16 23:20:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pico,"goodbye wonderful
+world",goodbye.txt,,,,0.0,0.0,2.0,3.0,2.0,3.0,11.0
+422,2021-04-16 23:20:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye wonderful
+world",goodbye.txt,diff goodbye.txt copied_goodbye.txt,,"1c1
+< goodbye wonderful
+---
+> goodbye beautiful",,,,,,,
+423,2021-04-16 23:24:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,"goodbye wonderful
+world",goodbye.txt,cat goodbye.txt,,"goodbye wonderful
+world",,,,,,,
+424,2021-04-16 23:25:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye beautiful
+world",copied_goodbye.txt,diff copied_goodbye.txt goodbye.txt,,"1c1
+< goodbye beautiful
+---
+> goodbye wonderful",,,,,,,
+425,2021-04-16 23:34:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye wonderful
+world",goodbye.txt,diff goodbye.txt linked_goodbye.txt,diff: linked_goodbye.txt: No such file or directory,,,,,,,,
+426,2021-04-16 23:34:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"cat_out.txt
+copied_goodbye.txt
+goodbye.txt
+hello_goodbye.txt
+hello.txt
+link_goodbye.txt
+ls_out.txt
+misc_child",,,,,,,
+427,2021-04-16 23:34:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye wonderful
+world",goodbye.txt,diff goodbye.txt link_goodbye.txt,,,,,,,,,
+428,2021-04-16 23:36:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,mv,"goodbye wonderful
+world",link_goodbye.txt,mv link_goodbye.txt link_goodbye.txt,mv: 'link_goodbye.txt' and 'link_goodbye.txt' are the same file,,,,,,,,
+429,2021-04-16 23:36:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,mv,,link_goodbye.txt,mv link_goodbye.txt linked_goodbye.txt,,,,,,,,,
+430,2021-04-16 23:36:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,diff,"goodbye wonderful
+world",goodbye.txt,diff goodbye.txt linked_goodbye.txt,,,,,,,,,
+431,2021-04-17 13:49:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan/Bash/misc,,,,,,,
+432,2021-04-17 13:49:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"cat_out.txt
+copied_goodbye.txt
+goodbye.txt
+hello_goodbye.txt
+hello.txt
+linked_goodbye.txt
+ls_out.txt
+misc_child",,,,,,,
+433,2021-04-17 13:50:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ln,,,ln -l,"ln: invalid option -- 'l'
+Try 'ln --help' for more information.",,,,,,,,
+434,2021-04-17 13:50:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l,,"total 28
+-rw-r--r-- 1 jovyan 1000 33 Apr 16 21:34 cat_out.txt
+-rw-r--r-- 1 jovyan 1000 24 Apr 16 23:17 copied_goodbye.txt
+-rw-r--r-- 1 jovyan 1000 24 Apr 16 23:20 goodbye.txt
+-rw-r--r-- 1 jovyan 1000 36 Apr 16 18:55 hello_goodbye.txt
+-rw-r--r-- 1 jovyan 1000 12 Apr 16 18:53 hello.txt
+lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:44 linked_goodbye.txt -> goodbye.txt
+-rw-r--r-- 1 jovyan 1000 51 Apr 16 18:56 ls_out.txt
+drwxr-sr-x 2 jovyan 1000 4096 Apr 16 22:56 misc_child",,,,,,,
+435,2021-04-17 13:50:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,mv,,goodbye.txt,mv goodbye.txt renamed_goodbye.txt,,,,,,,,,
+436,2021-04-17 13:50:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l,,"total 28
+-rw-r--r-- 1 jovyan 1000 33 Apr 16 21:34 cat_out.txt
+-rw-r--r-- 1 jovyan 1000 24 Apr 16 23:17 copied_goodbye.txt
+-rw-r--r-- 1 jovyan 1000 36 Apr 16 18:55 hello_goodbye.txt
+-rw-r--r-- 1 jovyan 1000 12 Apr 16 18:53 hello.txt
+lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:44 linked_goodbye.txt -> goodbye.txt
+-rw-r--r-- 1 jovyan 1000 51 Apr 16 18:56 ls_out.txt
+drwxr-sr-x 2 jovyan 1000 4096 Apr 16 22:56 misc_child
+-rw-r--r-- 1 jovyan 1000 24 Apr 16 23:20 renamed_goodbye.txt",,,,,,,
+437,2021-04-17 13:50:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,,goodbye.txt,cat goodbye.txt,cat: goodbye.txt: No such file or directory,,,,,,,,
+438,2021-04-17 13:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -r,,"renamed_goodbye.txt
+misc_child
+ls_out.txt
+linked_goodbye.txt
+hello.txt
+hello_goodbye.txt
+copied_goodbye.txt
+cat_out.txt",,,,,,,
+439,2021-04-17 13:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -l -r,,"total 28
+-rw-r--r-- 1 jovyan 1000 24 Apr 16 23:20 renamed_goodbye.txt
+drwxr-sr-x 2 jovyan 1000 4096 Apr 16 22:56 misc_child
+-rw-r--r-- 1 jovyan 1000 51 Apr 16 18:56 ls_out.txt
+lrwxrwxrwx 1 jovyan 1000 11 Apr 16 22:44 linked_goodbye.txt -> goodbye.txt
+-rw-r--r-- 1 jovyan 1000 12 Apr 16 18:53 hello.txt
+-rw-r--r-- 1 jovyan 1000 36 Apr 16 18:55 hello_goodbye.txt
+-rw-r--r-- 1 jovyan 1000 24 Apr 16 23:17 copied_goodbye.txt
+-rw-r--r-- 1 jovyan 1000 33 Apr 16 21:34 cat_out.txt",,,,,,,
+440,2021-04-17 13:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -R,,".:
+cat_out.txt
+copied_goodbye.txt
+hello_goodbye.txt
+hello.txt
+linked_goodbye.txt
+ls_out.txt
+misc_child
+renamed_goodbye.txt
+
+./misc_child:
+goodbye.txt",,,,,,,
+441,2021-04-17 14:38:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls ~,,"Bash
+Discovery
+DNASubway
+downloads.stderr.log
+downloads.stdout.log
+RNA_SEQ_SAMPLES
+stderr.txt
+stdout.txt
+SuperShell",,,,,,,
+442,2021-04-17 14:38:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls ~/Bash,,"Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+misc",,,,,,,
+443,2021-04-17 19:46:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,which,,,which pwd,,/bin/pwd,,,,,,,
+444,2021-04-17 19:47:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cat,,,cat /bin/pwd | head -4,,"ELF>@��@8	@@@@��888htht �z�z �z �0 �{�{ �{ ��TTTDDP�tdfffllQ�tdR�td�z�z �z /lib64/ld-linux-x86-64.so.2GNUGNUYv<�X=�v��>�H6��k�A�$)V`A AEL�&�(��M#�MB#�Pv��K������F-���,cr�bA�9�2��*Ը��c*?K�NxM��94 ��p8b	P���du�1H+���9Z>�1P 1�?V��c��'j�7m��_ F��""�jz � 8$�� � b(��{ XR�� �@X�!�� �� ]�� �!�� ��� A�� �� ��� ��e/libc.so.6fflush__printf_chkreaddirsetlocalembrtowcstrncmpoptindstrrchrdcgettextclosedirfchdirerrorputs__stack_chk_fail__lxstatiswprintreallocabort_exitprogram_invocation_name__ctype_get_mb_cur_maxcallocstrlenungetcmemsetstrstr__errno_locationmemcmp__fprintf_chkstdoutlseekmemcpyfclosemallocmbsinit__uflownl_langinfoopendir__ctype_b_locgetenv__freadingstderrfscanfgetopt_long__fxstatfilenogetcwdfwrite__fpendingprogram_invocation_short_namefdopen__cxa_finalize__xstatbindtextdomainstrcmp__libc_start_maindirfdfseekofputs_unlockedfree__progname__progname_full__cxa_atexitquote_quoting_optionsVersion_IO_stdin_usedquoting_style_valsquoting_style_argsexit_failureprogram_nameversion_etc_copyrightGLIBC_2.3GLIBC_2.3.4GLIBC_2.14GLIBC_2.4GLIBC_2.2.5_ITM_deregisterTMCloneTable__gmon_start___ITM_registerTMCloneTableii�ti	���iiui	(�z �z �{ �Y { �Y@{ �Y`{ �Y�{ �]�{ �]�{ �]�{ �]�{ �]�{ �]�{ �]�{ �]�{ bY�{ �]� � � ]`� p� x� � � � � $� ;� >�� E�� B�� L�� I�� K~ ~ ~ ~  ~ (~ 0~ 8~ 	@~ 
+H~ P~ X~ `~ h~ p~ x~ �~ �~ �~ �~ �~ �~ �~ �~ �~ �~ �~ �~ �~ �~  �~ !�~ "" # % & '  (( )0 *8 +@ ,H -P .X /` 0h 1p 2x 3� 4� 5� 6� 7� 8� 9� :� <� =� ?� @H��H��h H��t��H����5zf �%|f @�%zf h������%rf h������%jf h������%bf h�����%Zf h�����%Rf h�����%Jf h�����%Bf h�p����%:f h�`����%2f h	�P����%*f h
+�@����%""f h�0����%f h� ����%f h�����%
+f h�����%f h������%�e h������%�e h������%�e h������%�e h�����%�e h�����%�e h�����%�e h�����%�e h�p����%�e h�`����%�e h�P����%�e h�@����%�e h�0����%�e h� ����%�e h�����%�e h�����%�e h������%ze h ������%re h!������%je h""������%be h#�����%Ze h$�����%Re h%�����%Je h&�����%Be h'�p����%:e h(�`����%2e h)�P����%*e h*�@����%""e h+�0����%e h,� ����%e h-�����%",,,,,,,
+445,2021-04-17 19:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan/Bash/misc,,,,,,,
+446,2021-04-17 19:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,..,cd ..,,,,,,,,,
+447,2021-04-17 19:53:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+misc",,,,,,,
+448,2021-04-17 19:54:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"Jupyter_RNA_Notebook_analysis1-2021-04-07-19-24-53.7
+Jupyter_RNA_Notebook_analysis1-2021-04-08-21-28-09.6
+Jupyter_RNA_Notebook_analysis1-2021-04-10-19-14-38.9
+misc",,,,,,,
+449,2021-04-17 19:54:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls ~/DNASubway/,,"project-5974
+WT_rep1-tophat_fastqc.html",,,,,,,
+450,2021-04-17 19:54:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd ~/DNASubway/,,,,,,,,,
+451,2021-04-17 19:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"project-5974
+WT_rep1-tophat_fastqc.html",,,,,,,
+452,2021-04-17 19:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls -R ~/DNASubway/,,"/home/jovyan/DNASubway/:
+project-5974
+WT_rep1-tophat_fastqc.html
+
+/home/jovyan/DNASubway/project-5974:
+job-48632
+job-48633
+job-48634
+job-48635
+job-49052
+job-49070
+
+/home/jovyan/DNASubway/project-5974/job-48632:
+_15881.env
+_15881.variables
+fastx_out
+fx48632.err
+fx48632.out
+fx48632.pid
+
+/home/jovyan/DNASubway/project-5974/job-48632/fastx_out:
+Drug_A_1-tophat_fastqc.html
+Drug_A_1-tophat_fastqc.zip
+Drug_A_1-tophat.fastq.gz
+
+/home/jovyan/DNASubway/project-5974/job-48633:
+_16481.env
+_16481.variables
+fastx_out
+fx48633.err
+fx48633.out
+fx48633.pid
+
+/home/jovyan/DNASubway/project-5974/job-48633/fastx_out:
+Drug_A_2-tophat_fastqc.html
+Drug_A_2-tophat_fastqc.zip
+Drug_A_2-tophat.fastq.gz
+
+/home/jovyan/DNASubway/project-5974/job-48634:
+_17006.env
+_17006.variables
+fastx_out
+fx48634.err
+fx48634.out
+fx48634.pid
+
+/home/jovyan/DNASubway/project-5974/job-48634/fastx_out:
+Drug_B_1-tophat_fastqc.html
+Drug_B_1-tophat_fastqc.zip
+Drug_B_1-tophat.fastq.gz
+
+/home/jovyan/DNASubway/project-5974/job-48635:
+_17597.env
+_17597.variables
+fastx_out
+fx48635.err
+fx48635.out
+fx48635.pid
+
+/home/jovyan/DNASubway/project-5974/job-48635/fastx_out:
+Drug_B_2-tophat_fastqc.html
+Drug_B_2-tophat_fastqc.zip
+Drug_B_2-tophat.fastq.gz
+
+/home/jovyan/DNASubway/project-5974/job-49052:
+64522597449052
+bams
+envs
+kallisto49052.err
+kallisto49052.out
+kallisto49052.pid
+ks-output
+significant.csv
+sleuth_object.so
+
+/home/jovyan/DNASubway/project-5974/job-49052/64522597449052:
+app.R
+data
+rsconnect
+www
+
+/home/jovyan/DNASubway/project-5974/job-49052/64522597449052/data:
+sleuth_object.so
+
+/home/jovyan/DNASubway/project-5974/job-49052/64522597449052/rsconnect:
+shinyapps.io
+
+/home/jovyan/DNASubway/project-5974/job-49052/64522597449052/rsconnect/shinyapps.io:
+dnalc
+
+/home/jovyan/DNASubway/project-5974/job-49052/64522597449052/rsconnect/shinyapps.io/dnalc:
+64522597449052.dcf
+
+/home/jovyan/DNASubway/project-5974/job-49052/64522597449052/www:
+dnasubway-icon.png
+
+/home/jovyan/DNASubway/project-5974/job-49052/bams:
+
+/home/jovyan/DNASubway/project-5974/job-49052/ks-output:
+A_1_abundance.h5
+A_2_abundance.h5
+B_1_abundance.h5
+B_2_abundance.h5
+ks-downloadable-output.tar.gz
+
+/home/jovyan/DNASubway/project-5974/job-49070:
+64522597449070
+bams
+envs
+kallisto49070.err
+kallisto49070.out
+kallisto49070.pid
+ks-output
+significant.csv
+sleuth_object.so
+
+/home/jovyan/DNASubway/project-5974/job-49070/64522597449070:
+app.R
+data
+rsconnect
+www
+
+/home/jovyan/DNASubway/project-5974/job-49070/64522597449070/data:
+sleuth_object.so
+
+/home/jovyan/DNASubway/project-5974/job-49070/64522597449070/rsconnect:
+shinyapps.io
+
+/home/jovyan/DNASubway/project-5974/job-49070/64522597449070/rsconnect/shinyapps.io:
+dnalc
+
+/home/jovyan/DNASubway/project-5974/job-49070/64522597449070/rsconnect/shinyapps.io/dnalc:
+64522597449070.dcf
+
+/home/jovyan/DNASubway/project-5974/job-49070/64522597449070/www:
+dnasubway-icon.png
+
+/home/jovyan/DNASubway/project-5974/job-49070/bams:
+
+/home/jovyan/DNASubway/project-5974/job-49070/ks-output:
+A_1_abundance.h5
+A_1_abundance.tsv
+A_2_abundance.h5
+A_2_abundance.tsv
+B_1_abundance.h5
+B_1_abundance.tsv
+B_2_abundance.h5
+B_2_abundance.tsv
+ks-downloadable-output.tar.gz",,,,,,,
+453,2021-04-17 19:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan/DNASubway,,,,,,,
+454,2021-04-17 19:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"project-5974
+WT_rep1-tophat_fastqc.html",,,,,,,
+455,2021-04-17 19:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd project-5974/,,,,,,,,,
+456,2021-04-17 19:55:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"job-48632
+job-48633
+job-48634
+job-48635
+job-49052
+job-49070",,,,,,,
+457,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd job-49070,,,,,,,,,
+458,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"64522597449070
+bams
+envs
+kallisto49070.err
+kallisto49070.out
+kallisto49070.pid
+ks-output
+significant.csv
+sleuth_object.so",,,,,,,
+459,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,..,cd ..,,,,,,,,,
+460,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"job-48632
+job-48633
+job-48634
+job-48635
+job-49052
+job-49070",,,,,,,
+461,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd job-48632,,,,,,,,,
+462,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"_15881.env
+_15881.variables
+fastx_out
+fx48632.err
+fx48632.out
+fx48632.pid",,,,,,,
+463,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan/DNASubway/project-5974/job-48632,,,,,,,
+464,2021-04-17 19:56:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"_15881.env
+_15881.variables
+fastx_out
+fx48632.err
+fx48632.out
+fx48632.pid",,,,,,,
+465,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd fastx_out,,,,,,,,,
+466,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"Drug_A_1-tophat_fastqc.html
+Drug_A_1-tophat_fastqc.zip
+Drug_A_1-tophat.fastq.gz",,,,,,,
+467,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,..,cd ..,,,,,,,,,
+468,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"_15881.env
+_15881.variables
+fastx_out
+fx48632.err
+fx48632.out
+fx48632.pid",,,,,,,
+469,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,..,cd ..,,,,,,,,,
+470,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,ls,,,ls,,"job-48632
+job-48633
+job-48634
+job-48635
+job-49052
+job-49070",,,,,,,
+471,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,pwd,,,pwd,,/home/jovyan/DNASubway/project-5974,,,,,,,
+472,2021-04-17 19:57:00,00206cd4bdc39bab7e2908eb900370094d721883f30148868ba32abb8cdf28b3,Comp-512-Test,Bash,612c4dc4-ce35-4571-952d-cfedc92809d3-5fbf7c6db6-n,cd,,,cd job-49070,,,,,,,,,
