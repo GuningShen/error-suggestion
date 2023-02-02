@@ -1,0 +1,2949 @@
+{
+  "logs": [{
+    "_id": "Bash:0962bdbd-2ad5-4603-8c84-abb884c6121c",
+    "_rev": "6-983019e528a22175815cc8f3280badb3",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2023-01-19 16:10:54.892756",
+    "log": {
+      "commands": [{
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-19:16:10"
+      }]
+    },
+    "log_id": "d04e4ff0c8708760457e1cefad014855b3262f35c85a7a76c87d1f72539299ec",
+    "log_type": "Bash",
+    "machine_id": "a3f8b",
+    "session_id": "sdgeorge",
+    "timestamp": "2023-01-19 16:17:38.825687"
+  }, {
+    "_id": "Bash:228fec05-757c-474a-8a61-e899518fc635",
+    "_rev": "1-5625a6768d30b3d30808d03cbd29ed7f",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-11-21 20:39:59.313098",
+    "log": {
+      "commands": []
+    },
+    "log_id": "2ad878c3393162c3ce826b3660d608f6b82c6f6af6a93ae05b27105945324187",
+    "log_type": "Bash",
+    "machine_id": "ad8ae",
+    "session_id": "None",
+    "timestamp": "2022-11-21 20:39:59.313098"
+  }, {
+    "_id": "Bash:29b65ae0-1c67-485c-abad-f3123428339b",
+    "_rev": "71-4b5c3f0879dcbe98acd3e0080a40bb79",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2023-01-17 19:03:21.927560",
+    "log": {
+      "commands": [{
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /home/jovyan",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": ".",
+        "full_command": "ls .",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:03"
+      }, {
+        "command": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "file": "",
+        "filename": "",
+        "full_command": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "stderr": "/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES: Is a directory",
+        "stdout": "",
+        "time": "2023-01-17:19:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2023-01-17:19:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "./data/input/RNA_SEQ_SAMPLES",
+        "full_command": "ls ./data/input/RNA_SEQ_SAMPLES",
+        "stderr": "ls: cannot access './data/input/RNA_SEQ_SAMPLES': No such file or directory",
+        "stdout": "",
+        "time": "2023-01-17:19:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "./data-store/data/input/RNA_SEQ_SAMPLES",
+        "full_command": "ls ./data-store/data/input/RNA_SEQ_SAMPLES",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2023-01-17:19:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "stderr.txtls",
+        "full_command": "ls stderr.txtls stderr.txt",
+        "stderr": "ls: cannot access 'stderr.txtls': No such file or directory",
+        "stdout": "stderr.txt",
+        "time": "2023-01-17:19:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "stderr.txt",
+        "full_command": "ls stderr.txt",
+        "stderr": "",
+        "stdout": "stderr.txt",
+        "time": "2023-01-17:19:05"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls d^t",
+        "stderr": "ls: cannot access 'd^t': No such file or directory",
+        "stdout": "",
+        "time": "2023-01-17:19:08"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:08"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls data-store/data/input/Discov",
+        "stderr": "ls: cannot access 'data-store/data/input/Discov': No such file or directory",
+        "stdout": "",
+        "time": "2023-01-17:19:10"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l data-store/data/input/Discovery/",
+        "stderr": "",
+        "stdout": "total 0\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 FilteredSortedOutput\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 RNASequenceOutput\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 TSVFiles\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:54 UncompressedSamples",
+        "time": "2023-01-17:19:10"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l data-store/data/input/Discovery/",
+        "stderr": "",
+        "stdout": "total 0\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 FilteredSortedOutput\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 RNASequenceOutput\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 TSVFiles\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:54 UncompressedSamples",
+        "time": "2023-01-17:19:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l data-store/data/input/Discovery/TSVFiles",
+        "stderr": "",
+        "stdout": "total 0",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data-store/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd input/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\nRNA_SEQ_SAMPLES",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Discovery/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "FilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd TSVFiles/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:13"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:13"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan",
+        "time": "2023-01-17:19:13"
+      }, {
+        "command": "history",
+        "file": "",
+        "filename": "",
+        "full_command": "history",
+        "stderr": "",
+        "stdout": " 1 ls /home/jovyan\n 2 ls .\n 3 /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES\n 4 ls /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES\n 5 ls ./data/input/RNA_SEQ_SAMPLES\n 6 ls ./data-store/data/input/RNA_SEQ_SAMPLES\n 7 ls stderr.txtls stderr.txt\n 8 ls stderr.txt\n 9 ls d^t\n 10 ls\n 11 ls data-store/data/input/Discov\n 12 ls -l data-store/data/input/Discovery/\n 13 ls -l data-store/data/input/Discovery/\n 14 ls -l data-store/data/input/Discovery/TSVFiles\n 15 cd data-store/\n 16 ls\n 17 cd data\n 18 ls\n 19 cd input/\n 20 ls\n 21 cd Discovery/\n 22 ls\n 23 cd TSVFiles/\n 24 ls\n 25 cd ~\n 26 ls\n 27 pwd\n 28 history",
+        "time": "2023-01-17:19:13"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:14"
+      }, {
+        "command": "history",
+        "file": "",
+        "filename": "",
+        "full_command": "history",
+        "stderr": "",
+        "stdout": " 1 ls /home/jovyan\n 2 ls .\n 3 /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES\n 4 ls /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES\n 5 ls ./data/input/RNA_SEQ_SAMPLES\n 6 ls ./data-store/data/input/RNA_SEQ_SAMPLES\n 7 ls stderr.txtls stderr.txt\n 8 ls stderr.txt\n 9 ls d^t\n 10 ls\n 11 ls data-store/data/input/Discov\n 12 ls -l data-store/data/input/Discovery/\n 13 ls -l data-store/data/input/Discovery/\n 14 ls -l data-store/data/input/Discovery/TSVFiles\n 15 cd data-store/\n 16 ls\n 17 cd data\n 18 ls\n 19 cd input/\n 20 ls\n 21 cd Discovery/\n 22 ls\n 23 cd TSVFiles/\n 24 ls\n 25 cd ~\n 26 ls\n 27 pwd\n 28 history\n 29 ! !\n 30 ! !.\n 31 ! pw\n 32 ls\n 33 history",
+        "time": "2023-01-17:19:14"
+      }, {
+        "command": "history",
+        "file": "",
+        "filename": "",
+        "full_command": "history",
+        "stderr": "",
+        "stdout": " 1 ls /home/jovyan\n 2 ls .\n 3 /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES\n 4 ls /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES\n 5 ls ./data/input/RNA_SEQ_SAMPLES\n 6 ls ./data-store/data/input/RNA_SEQ_SAMPLES\n 7 ls stderr.txtls stderr.txt\n 8 ls stderr.txt\n 9 ls d^t\n 10 ls\n 11 ls data-store/data/input/Discov\n 12 ls -l data-store/data/input/Discovery/\n 13 ls -l data-store/data/input/Discovery/\n 14 ls -l data-store/data/input/Discovery/TSVFiles\n 15 cd data-store/\n 16 ls\n 17 cd data\n 18 ls\n 19 cd input/\n 20 ls\n 21 cd Discovery/\n 22 ls\n 23 cd TSVFiles/\n 24 ls\n 25 cd ~\n 26 ls\n 27 pwd\n 28 history\n 29 ! !\n 30 ! !.\n 31 ! pw\n 32 ls\n 33 history\n 34 !\n 35 history",
+        "time": "2023-01-17:19:15"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l",
+        "stderr": "",
+        "stdout": "total 4\ndrwxrwsrwx 2 root jovyan 42 Jan 17 18:58 data-store\n-rw-r--r-- 1 jovyan users 0 Jan 17 19:22 stderr.txt\n-rw-r--r-- 1 jovyan users 0 Jan 17 19:22 stdout.txt\ndrwxr-xr-x 6 jovyan users 4096 Jan 17 19:03 SuperShell\ndrwsrwsr-x. 2 jovyan users 6 May 3 2022 work",
+        "time": "2023-01-17:19:22"
+      }, {
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2023-01-17:19:22"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l",
+        "stderr": "",
+        "stdout": "total 4\ndrwxrwsrwx 2 root jovyan 42 Jan 17 18:58 data-store\n-rw-r--r-- 1 jovyan users 0 Jan 17 19:23 stderr.txt\n-rw-r--r-- 1 jovyan users 0 Jan 17 19:23 stdout.txt\ndrwxr-xr-x 6 jovyan users 4096 Jan 17 19:03 SuperShell\ndrwsrwsr-x. 2 jovyan users 6 May 3 2022 work",
+        "time": "2023-01-17:19:23"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l stderr.txt",
+        "stderr": "",
+        "stdout": "-rw-r--r-- 1 jovyan users 0 Jan 17 19:23 stderr.txt",
+        "time": "2023-01-17:19:23"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l ./data-store/data/input/RNA_SEQ_SAMPLES/ stderr.txt",
+        "stderr": "",
+        "stdout": "-rw-r--r-- 1 jovyan users 0 Jan 17 19:24 stderr.txt\n\n./data-store/data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_B",
+        "time": "2023-01-17:19:24"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l -R ./data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "./data-store/data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_B\n\n./data-store/data/input/RNA_SEQ_SAMPLES/Drug_A:\ntotal 0\n-r-------- 1 jovyan jovyan 3677295 May 20 2020 Drug_A_1.fastq\n-r-------- 1 jovyan jovyan 804307 May 20 2020 Drug_A_1.fastq.gz\n-r-------- 1 jovyan jovyan 3978812 May 22 2020 Drug_A_2.fastq\n-r-------- 1 jovyan jovyan 772800 May 20 2020 Drug_A_2.fastq.gz\n\n./data-store/data/input/RNA_SEQ_SAMPLES/Drug_B:\ntotal 0\n-r-------- 1 jovyan jovyan 3978812 May 20 2020 Drug_B_1.fastq\n-r-------- 1 jovyan jovyan 827189 May 22 2020 Drug_B_1.fastq.gz\n-r-------- 1 jovyan jovyan 3978812 May 20 2020 Drug_B_2.fastq\n-r-------- 1 jovyan jovyan 827189 May 22 2020 Drug_B_2.fastq.gz",
+        "time": "2023-01-17:19:24"
+      }, {
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2023-01-17:19:25"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l -R data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "data-store/data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_B\n\ndata-store/data/input/RNA_SEQ_SAMPLES/Drug_A:\ntotal 0\n-r-------- 1 jovyan jovyan 3677295 May 20 2020 Drug_A_1.fastq\n-r-------- 1 jovyan jovyan 804307 May 20 2020 Drug_A_1.fastq.gz\n-r-------- 1 jovyan jovyan 3978812 May 22 2020 Drug_A_2.fastq\n-r-------- 1 jovyan jovyan 772800 May 20 2020 Drug_A_2.fastq.gz\n\ndata-store/data/input/RNA_SEQ_SAMPLES/Drug_B:\ntotal 0\n-r-------- 1 jovyan jovyan 3978812 May 20 2020 Drug_B_1.fastq\n-r-------- 1 jovyan jovyan 827189 May 22 2020 Drug_B_1.fastq.gz\n-r-------- 1 jovyan jovyan 3978812 May 20 2020 Drug_B_2.fastq\n-r-------- 1 jovyan jovyan 827189 May 22 2020 Drug_B_2.fastq.gz",
+        "time": "2023-01-17:19:26"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:26"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "time": "2023-01-17:19:26"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2023-01-17:19:27"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:29"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/input",
+        "time": "2023-01-17:19:29"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:30"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2023-01-17:19:30"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data",
+        "time": "2023-01-17:19:30"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "/home/jovyan/.offline.sh: line 354: cd: data-store/data/input/RNA_SEQ_SAMPLES/: No such file or directory",
+        "stdout": "",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd input/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\nRNA_SEQ_SAMPLES",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/input",
+        "time": "2023-01-17:19:31"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:33"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data",
+        "time": "2023-01-17:19:33"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:33"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:34"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:34"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data-store/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:34"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:34"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan",
+        "time": "2023-01-17:19:34"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data-store/data/input/RNA_SEQ_SAMPLES/Drug_A",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:35"
+      }, {
+        "command": "which",
+        "file": "",
+        "filename": "",
+        "full_command": "which ls",
+        "stderr": "",
+        "stdout": "/usr/bin/ls",
+        "time": "2023-01-17:19:36"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data-store/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:37"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "../Drug_B",
+        "full_command": "cd ../Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:37"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "../..",
+        "full_command": "cd ../..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:38"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:38"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -a",
+        "stderr": "",
+        "stdout": "Drug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "time": "2023-01-17:19:38"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "./../Drug_A",
+        "full_command": "cd ./../Drug_A",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:38"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd /home/jovyan/data-store/data/output",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:39"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir misc_child",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:39"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:39"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:40"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:40"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir misc_child",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:40"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "misc_child",
+        "time": "2023-01-17:19:40"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir misc_child/misc_child_child",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:40"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "misc_child",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/output/misc",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "misc\nmisc_child",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/output",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "misc_child",
+        "time": "2023-01-17:19:41"
+      }, {
+        "command": "pico",
+        "diff_l": 1,
+        "diff_wc": 1,
+        "file": "YeTest",
+        "filename": "hello.txt",
+        "new_l": 1,
+        "new_wc": 1,
+        "old_l": 0,
+        "old_wc": 0,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:42",
+        "total_time(s)": 24
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "hello.txt\nmisc_child",
+        "time": "2023-01-17:19:42"
+      }, {
+        "command": "cat",
+        "file": "YeTest",
+        "filename": "hello.txt",
+        "full_command": "cat hello.txt",
+        "stderr": "",
+        "stdout": "YeTest",
+        "time": "2023-01-17:19:42"
+      }, {
+        "command": "pico",
+        "diff_l": 1,
+        "diff_wc": 3,
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "new_l": 1,
+        "new_wc": 3,
+        "old_l": 0,
+        "old_wc": 0,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:43",
+        "total_time(s)": 14
+      }, {
+        "command": "cat",
+        "file": "YeTest",
+        "filename": "hello.txt",
+        "full_command": "cat hello.txt goodbye.txt",
+        "stderr": "",
+        "stdout": "YeTest\nSee You Later! ",
+        "time": "2023-01-17:19:43"
+      }, {
+        "command": "cat",
+        "file": "",
+        "filename": "",
+        "full_command": "cat",
+        "stderr": "",
+        "stdout": "abc\ndef",
+        "time": "2023-01-17:19:43"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls > ls.out",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:44"
+      }, {
+        "command": "cat",
+        "file": "YeTest",
+        "filename": "hello.txt",
+        "full_command": "cat hello.txt goodbye.txt > hello_goodbye.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:50"
+      }, {
+        "command": "cat",
+        "file": "YeTest\nSee You Later! ",
+        "filename": "hello_goodbye.txt",
+        "full_command": "cat hello_goodbye.txt",
+        "stderr": "",
+        "stdout": "YeTest\nSee You Later! ",
+        "time": "2023-01-17:19:50"
+      }, {
+        "command": "cat",
+        "file": "",
+        "filename": "",
+        "full_command": "cat < hello.txt",
+        "stderr": "",
+        "stdout": "YeTest",
+        "time": "2023-01-17:19:51"
+      }, {
+        "command": "cat",
+        "file": "",
+        "filename": "",
+        "full_command": "cat > cat.out",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:51"
+      }, {
+        "command": "cat",
+        "file": "this is cat input\nMore cat input",
+        "filename": "cat.out",
+        "full_command": "cat cat.out",
+        "stderr": "",
+        "stdout": "this is cat input\nMore cat input",
+        "time": "2023-01-17:19:51"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/output/misc",
+        "time": "2023-01-17:19:51"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo \"Hello World\"",
+        "stderr": "",
+        "stdout": "Hello World",
+        "time": "2023-01-17:19:51"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo \"hello world\"",
+        "stderr": "",
+        "stdout": "hello world",
+        "time": "2023-01-17:19:52"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo 1 2",
+        "stderr": "",
+        "stdout": "1 2",
+        "time": "2023-01-17:19:52"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo “hello world” > misc_child/echo.out",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:54"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ngoodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:19:54"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd misc_child/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:54"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "echo.out\nmisc_child_child",
+        "time": "2023-01-17:19:54"
+      }, {
+        "command": "cat",
+        "file": "“hello world”",
+        "filename": "echo.out",
+        "full_command": "cat echo.out",
+        "stderr": "",
+        "stdout": "“hello world”",
+        "time": "2023-01-17:19:54"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "echo.out\nmisc_child_child",
+        "time": "2023-01-17:19:55"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:55"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ngoodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:19:55"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/output/misc",
+        "time": "2023-01-17:19:55"
+      }, {
+        "command": "cat",
+        "file": "",
+        "filename": "",
+        "full_command": "cat ~/data-store/data/output/misc/*",
+        "stderr": "cat: /home/jovyan/data-store/data/output/misc/misc_child: Is a directory",
+        "stdout": "this is cat input\nMore cat input\nSee You Later! \nYeTest\nSee You Later! \nYeTest\ngoodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:19:56"
+      }, {
+        "command": "cat",
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "full_command": "cat goodbye.txt hello_goodbye.txt hello.txt",
+        "stderr": "",
+        "stdout": "See You Later! \nYeTest\nSee You Later! \nYeTest",
+        "time": "2023-01-17:19:56"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ~/*.log",
+        "stderr": "ls: cannot access '–l': No such file or directory\nls: cannot access '/home/jovyan/*.log': No such file or directory",
+        "stdout": "",
+        "time": "2023-01-17:19:57"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ngoodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "misc\nmisc_child",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ~/*.txt",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "/home/jovyan/stderr.txt",
+        "time": "2023-01-17:19:58"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l *.txt",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "stderr.txt",
+        "time": "2023-01-17:19:59"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:19:59"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ~/*-store",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "/home/jovyan/data-store:\ndata\nhome",
+        "time": "2023-01-17:19:59"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ~/*.err",
+        "stderr": "ls: cannot access '–l': No such file or directory\nls: cannot access '/home/jovyan/*.err': No such file or directory",
+        "stdout": "",
+        "time": "2023-01-17:20:00"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:00"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ~/*.txt",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "/home/jovyan/stderr.txt",
+        "time": "2023-01-17:20:00"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "~/*.txt",
+        "full_command": "echo ~/*.txt",
+        "stderr": "",
+        "stdout": "/home/jovyan/stderr.txt",
+        "time": "2023-01-17:20:01"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:01"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data-store/data/output/misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:01"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ngoodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:01"
+      }, {
+        "command": "cp",
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "full_command": "cp goodbye.txt copied_ goodbye.txt",
+        "stderr": "cp: target 'goodbye.txt' is not a directory",
+        "stdout": "",
+        "time": "2023-01-17:20:01"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ngoodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:01"
+      }, {
+        "command": "cp",
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "full_command": "cp goodbye.txt copied_goodbye.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:02"
+      }, {
+        "command": "cp",
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "full_command": "cp goodbye.txt copied_goodbye.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:02"
+      }, {
+        "command": "cat",
+        "file": "See You Later! ",
+        "filename": "copied_goodbye.txt",
+        "full_command": "cat copied_goodbye.txt",
+        "stderr": "",
+        "stdout": "See You Later! ",
+        "time": "2023-01-17:20:03"
+      }, {
+        "command": "cp",
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "full_command": "cp goodbye.txt misc_child",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:03"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd misc_child/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:03"
+      }, {
+        "command": "cat",
+        "file": "See You Later! ",
+        "filename": "goodbye.txt",
+        "full_command": "cat goodbye.txt",
+        "stderr": "",
+        "stdout": "See You Later! ",
+        "time": "2023-01-17:20:03"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:03"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/output/misc",
+        "time": "2023-01-17:20:03"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data-store/data/output/misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:04"
+      }, {
+        "command": "mv",
+        "file": "",
+        "filename": "goodbye.txt",
+        "full_command": "mv goodbye.txt renamed_goodbye.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child\nrenamed_goodbye.txt",
+        "time": "2023-01-17:20:04"
+      }, {
+        "command": "mv",
+        "file": "",
+        "filename": "renamed_goodbye.txt",
+        "full_command": "mv renamed_goodbye.txt misc_child/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:04"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data-store/data/output/misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:05"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:05"
+      }, {
+        "command": "ln",
+        "file": "",
+        "filename": "",
+        "full_command": "ln –s hello.txt linked _hello.txt",
+        "stderr": "ln: target '_hello.txt' is not a directory",
+        "stdout": "",
+        "time": "2023-01-17:20:07"
+      }, {
+        "command": "ln",
+        "file": "",
+        "filename": "",
+        "full_command": "ln -s hello.txt linked_hello.txt",
+        "stderr": "ln: failed to create symbolic link 'linked_hello.txt': Input/output error",
+        "stdout": "",
+        "time": "2023-01-17:20:07"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/output/misc",
+        "time": "2023-01-17:20:07"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nhello.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:07"
+      }, {
+        "command": "mv",
+        "file": "",
+        "filename": "hello.txt",
+        "full_command": "mv hello.txt ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:10"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:10"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:10"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nhello.txt\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:10"
+      }, {
+        "command": "ln",
+        "file": "",
+        "filename": "",
+        "full_command": "ln -s hello.txt linked_hello.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:11"
+      }, {
+        "command": "cat",
+        "file": "YeTest",
+        "filename": "linked_hello.txt",
+        "full_command": "cat linked_hello.txt",
+        "stderr": "",
+        "stdout": "YeTest",
+        "time": "2023-01-17:20:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l linked_hello.txt",
+        "stderr": "",
+        "stdout": "lrwxrwxrwx 1 jovyan users 9 Jan 17 20:11 linked_hello.txt -> hello.txt",
+        "time": "2023-01-17:20:11"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir link_test",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:12"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd link_test",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:12"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:12"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/link_test",
+        "time": "2023-01-17:20:12"
+      }, {
+        "command": "ln",
+        "file": "",
+        "filename": "",
+        "full_command": "ln -s ../hello.txt hello.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:13"
+      }, {
+        "command": "cat",
+        "file": "YeTest",
+        "filename": "hello.txt",
+        "full_command": "cat hello.txt",
+        "stderr": "",
+        "stdout": "YeTest",
+        "time": "2023-01-17:20:13"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l hello.txt",
+        "stderr": "",
+        "stdout": "lrwxrwxrwx 1 jovyan users 12 Jan 17 20:13 hello.txt -> ../hello.txt",
+        "time": "2023-01-17:20:13"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data-store/data/output/misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:14"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:14"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:15"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nhello.txt\nlinked_hello.txt\nlink_test\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:15"
+      }, {
+        "command": "pico",
+        "diff_l": 0,
+        "diff_wc": 1,
+        "file": "Hello Universe",
+        "filename": "hello.txt",
+        "new_l": 1,
+        "new_wc": 2,
+        "old_l": 1,
+        "old_wc": 1,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:17",
+        "total_time(s)": 15
+      }, {
+        "command": "cat",
+        "file": "Hello Universe",
+        "filename": "linked_hello.txt",
+        "full_command": "cat linked_hello.txt",
+        "stderr": "",
+        "stdout": "Hello Universe",
+        "time": "2023-01-17:20:17"
+      }, {
+        "command": "pico",
+        "diff_l": 0,
+        "diff_wc": 0,
+        "file": "Hello World",
+        "filename": "hello.txt",
+        "new_l": 1,
+        "new_wc": 2,
+        "old_l": 1,
+        "old_wc": 2,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:18",
+        "total_time(s)": 7
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nhello.txt\nlinked_hello.txt\nlink_test\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:18"
+      }, {
+        "command": "cp",
+        "file": "Hello World",
+        "filename": "hello.txt",
+        "full_command": "cp hello.txt copied_hello.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:20"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "copied_hello.txt\ndata-store\nhello.txt\nlinked_hello.txt\nlink_test\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:20"
+      }, {
+        "command": "pico",
+        "diff_l": 0,
+        "diff_wc": 0,
+        "file": "Hello Universe",
+        "filename": "hello.txt",
+        "new_l": 1,
+        "new_wc": 2,
+        "old_l": 1,
+        "old_wc": 2,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:20",
+        "total_time(s)": 7
+      }, {
+        "command": "cat",
+        "file": "Hello Universe",
+        "filename": "linked_hello.txt",
+        "full_command": "cat linked_hello.txt",
+        "stderr": "",
+        "stdout": "Hello Universe",
+        "time": "2023-01-17:20:20"
+      }, {
+        "command": "cat",
+        "file": "Hello World",
+        "filename": "copied_hello.txt",
+        "full_command": "cat copied_hello.txt",
+        "stderr": "",
+        "stdout": "Hello World",
+        "time": "2023-01-17:20:20"
+      }, {
+        "command": "diff",
+        "file": "Hello Universe",
+        "filename": "hello.txt",
+        "full_command": "diff hello.txt copied_hello.txt",
+        "stderr": "",
+        "stdout": "1c1\n< Hello Universe\n---\n> Hello World",
+        "time": "2023-01-17:20:21"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nhello.txt\nlinked_hello.txt\nlink_test\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:23"
+      }, {
+        "command": "pico",
+        "diff_l": 1,
+        "diff_wc": 0,
+        "file": "Hello\nUniverse",
+        "filename": "hello.txt",
+        "new_l": 2,
+        "new_wc": 2,
+        "old_l": 1,
+        "old_wc": 2,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:23",
+        "total_time(s)": 9
+      }, {
+        "command": "pico",
+        "diff_l": 0,
+        "diff_wc": 0,
+        "file": "Hello\nWorld",
+        "filename": "hello.txt",
+        "new_l": 2,
+        "new_wc": 2,
+        "old_l": 2,
+        "old_wc": 2,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:24",
+        "total_time(s)": 11
+      }, {
+        "command": "cp",
+        "file": "Hello\nWorld",
+        "filename": "hello.txt",
+        "full_command": "cp hello.txt copied_hello.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:24"
+      }, {
+        "command": "cat",
+        "file": "Hello\nWorld",
+        "filename": "linked_hello.txt",
+        "full_command": "cat linked_hello.txt",
+        "stderr": "",
+        "stdout": "Hello\nWorld",
+        "time": "2023-01-17:20:24"
+      }, {
+        "command": "pico",
+        "diff_l": 0,
+        "diff_wc": 0,
+        "file": "Hello\nUniverse",
+        "filename": "hello.txt",
+        "new_l": 2,
+        "new_wc": 2,
+        "old_l": 2,
+        "old_wc": 2,
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:24",
+        "total_time(s)": 7
+      }, {
+        "command": "cat",
+        "file": "Hello\nUniverse",
+        "filename": "linked_hello.txt",
+        "full_command": "cat linked_hello.txt",
+        "stderr": "",
+        "stdout": "Hello\nUniverse",
+        "time": "2023-01-17:20:24"
+      }, {
+        "command": "diff",
+        "file": "Hello\nUniverse",
+        "filename": "hello.txt",
+        "full_command": "diff hello.txt copied_hello.txt",
+        "stderr": "",
+        "stdout": "2c2\n< Universe\n---\n> World",
+        "time": "2023-01-17:20:25"
+      }, {
+        "command": "diff",
+        "file": "Hello\nWorld",
+        "filename": "copied_hello.txt",
+        "full_command": "diff copied_hello.txt hello.txt",
+        "stderr": "",
+        "stdout": "2c2\n< World\n---\n> Universe",
+        "time": "2023-01-17:20:30"
+      }, {
+        "command": "diff",
+        "file": "Hello\nUniverse",
+        "filename": "hello.txt",
+        "full_command": "diff hello.txt linked_hello.txt",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:31"
+      }, {
+        "command": "cp",
+        "file": "",
+        "filename": "",
+        "full_command": "cp ~/data-store/data/output/misc ~/misc",
+        "stderr": "cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc'",
+        "stdout": "",
+        "time": "2023-01-17:20:34"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "copied_hello.txt\ndata-store\nhello.txt\nlinked_hello.txt\nlink_test\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:34"
+      }, {
+        "command": "cp",
+        "file": "",
+        "filename": "",
+        "full_command": "cp -r ~/data-store/data/output/misc ~/misc",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd misc/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "copied_hello.txt\ndata-store\nhello.txt\nlinked_hello.txt\nlink_test\nmisc\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd misc/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nls.out\nmisc_child",
+        "time": "2023-01-17:20:36"
+      }, {
+        "command": "mv",
+        "file": "",
+        "filename": "",
+        "full_command": "mv misc_child renamed_misc_child",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:37"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nls.out\nrenamed_misc_child",
+        "time": "2023-01-17:20:37"
+      }, {
+        "command": "ln",
+        "file": "",
+        "filename": "",
+        "full_command": "ln -s renamed_misc_child linked_misc_child",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:37"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo $HOME",
+        "stderr": "",
+        "stdout": "/home/jovyan",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "cat.out\ncopied_goodbye.txt\nhello_goodbye.txt\nlinked_misc_child\nls.out\nrenamed_misc_child",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "copied_hello.txt\ndata-store\nhello.txt\nlinked_hello.txt\nlink_test\nmisc\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data-store/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd input/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\nRNA_SEQ_SAMPLES",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Bash/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:39"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data-store/data/input/Bash",
+        "time": "2023-01-17:20:40"
+      }, {
+        "command": "export",
+        "file": "",
+        "filename": "",
+        "full_command": "export PATH=\"$PATH:$HOME/data-store/data/input/Bash/bin\"",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:41"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo $PATH",
+        "stderr": "",
+        "stdout": "/opt/conda/bin:/opt/conda/condabin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin",
+        "time": "2023-01-17:20:41"
+      }, {
+        "command": "export",
+        "file": "",
+        "filename": "",
+        "full_command": "export PATH=\"$PATH:$HOME/data-store/data/input/Bash/bin\"",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:42"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo $PATH",
+        "stderr": "",
+        "stdout": "/opt/conda/bin:/opt/conda/condabin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin",
+        "time": "2023-01-17:20:42"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:42"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir bin",
+        "stderr": "mkdir: cannot create directory ‘bin’: Permission denied",
+        "stdout": "",
+        "time": "2023-01-17:20:42"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:42"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:42"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "copied_hello.txt\ndata-store\nhello.txt\nlinked_hello.txt\nlink_test\nmisc\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-17:20:43"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir bin",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:43"
+      }, {
+        "command": "export",
+        "file": "",
+        "filename": "",
+        "full_command": "export PATH=\"$PATH:$HOME/bin\"",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:44"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo $PATH",
+        "stderr": "",
+        "stdout": "/opt/conda/bin:/opt/conda/condabin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin",
+        "time": "2023-01-17:20:44"
+      }, {
+        "command": "export",
+        "file": "",
+        "filename": "",
+        "full_command": "export PATH=\"$PATH:$HOME/bin\"",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-17:20:45"
+      }, {
+        "command": "echo",
+        "file": "",
+        "filename": "",
+        "full_command": "echo $PATH",
+        "stderr": "",
+        "stdout": "/opt/conda/bin:/opt/conda/condabin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/TDM-GCC-64/bin",
+        "time": "2023-01-17:20:45"
+      }]
+    },
+    "log_id": "cb4db30c2a3bc9fca043f180f62c72c7d1bc8184cd74174aa62e5c80059c8c07",
+    "log_type": "Bash",
+    "machine_id": "a07f4",
+    "session_id": "sdgeorge",
+    "timestamp": "2023-01-17 20:47:12.580179"
+  }, {
+    "_id": "Bash:36d0f9fc-4676-4473-9c50-d10427442ebe",
+    "_rev": "3136-ab9f567d933ea4f8c2bcdd23e238c295",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-11-29 21:06:57.174664",
+    "log": {
+      "commands": [{
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-11-29:21:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-11-29:21:06"
+      }, {
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2022-12-01:20:02"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /home/jovyan",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:02"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": ".",
+        "full_command": "ls .",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:02"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd input/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\ngenome.fas\nRNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input/RNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls /home/jovyan/data/input/RNA_SEQ_SAMPLES",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2022-12-01:20:03"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "./data/input/RNA_SEQ_SAMPLES/",
+        "full_command": "ls ./data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2022-12-01:20:04"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "stdout.txt",
+        "full_command": "ls stdout.txt",
+        "stderr": "ls: cannot access 'stdout.txt': No such file or directory",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd output/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "input\niplant\noutput",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd iplant/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "home",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd home/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "sdgeorge\nshared",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:06"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "stderr.txt",
+        "full_command": "ls stderr.txt",
+        "stderr": "",
+        "stdout": "stderr.txt",
+        "time": "2022-12-01:20:07"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "Stderr.txt",
+        "full_command": "ls Stderr.txt",
+        "stderr": "ls: cannot access 'Stderr.txt': No such file or directory",
+        "stdout": "",
+        "time": "2022-12-01:20:08"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:08"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nSuperShell",
+        "time": "2022-12-01:20:09"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls data/input/Discovery/ls –l data/input/Discovery/",
+        "stderr": "ls: cannot access 'data/input/Discovery/ls': No such file or directory\nls: cannot access '–l': No such file or directory",
+        "stdout": "data/input/Discovery/:\nFilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "time": "2022-12-01:20:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l data/input/Discovery/",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "data/input/Discovery/:\nFilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "time": "2022-12-01:20:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l data/input/Discovery",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "data/input/Discovery:\nFilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "time": "2022-12-01:20:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l data/input/Discovery/",
+        "stderr": "",
+        "stdout": "total 0\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 FilteredSortedOutput\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 RNASequenceOutput\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:53 TSVFiles\ndr-x------ 1 jovyan jovyan 0 Sep 20 17:54 UncompressedSamples",
+        "time": "2022-12-01:20:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l",
+        "stderr": "",
+        "stdout": "total 4\nlrwxrwxrwx 1 jovyan jovyan 11 Nov 29 20:42 data -> /data-store\nlrwxrwxrwx 1 jovyan jovyan 23 Nov 29 20:42 home -> /data-store/iplant/home\n-rw-r--r-- 1 jovyan jovyan 0 Dec 1 20:13 stderr.txt\ndrwxr-sr-x 6 jovyan jovyan 4096 Nov 29 21:06 SuperShell",
+        "time": "2022-12-01:20:13"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l stderr.txt",
+        "stderr": "",
+        "stdout": "-rw-r--r-- 1 jovyan jovyan 0 Dec 1 20:16 stderr.txt",
+        "time": "2022-12-01:20:16"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ./data/input/RNA_SEQ_SAMPLES stderr.txt",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "stderr.txt\n\n./data/input/RNA_SEQ_SAMPLES:\nDrug_A\nDrug_B",
+        "time": "2022-12-01:20:17"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls –l ./data/input/RNA_SEQ_SAMPLES stderr.txt",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "stdout": "stderr.txt\n\n./data/input/RNA_SEQ_SAMPLES:\nDrug_A\nDrug_B",
+        "time": "2022-12-01:20:17"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l ./data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "total 0\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_B",
+        "time": "2022-12-01:20:17"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l ./data/input/RNA_SEQ_SAMPLES/ stderr.txt",
+        "stderr": "",
+        "stdout": "-rw-r--r-- 1 jovyan jovyan 0 Dec 1 20:17 stderr.txt\n\n./data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_B",
+        "time": "2022-12-01:20:18"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -l -R data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 1 jovyan jovyan 0 May 29 2020 Drug_B\n\ndata/input/RNA_SEQ_SAMPLES/Drug_A:\ntotal 0\n-r-------- 1 jovyan jovyan 3677295 May 20 2020 Drug_A_1.fastq\n-r-------- 1 jovyan jovyan 804307 May 20 2020 Drug_A_1.fastq.gz\n-r-------- 1 jovyan jovyan 3978812 May 22 2020 Drug_A_2.fastq\n-r-------- 1 jovyan jovyan 772800 May 20 2020 Drug_A_2.fastq.gz\n\ndata/input/RNA_SEQ_SAMPLES/Drug_B:\ntotal 0\n-r-------- 1 jovyan jovyan 3978812 May 20 2020 Drug_B_1.fastq\n-r-------- 1 jovyan jovyan 827189 May 22 2020 Drug_B_1.fastq.gz\n-r-------- 1 jovyan jovyan 3978812 May 20 2020 Drug_B_2.fastq\n-r-------- 1 jovyan jovyan 827189 May 22 2020 Drug_B_2.fastq.gz",
+        "time": "2022-12-01:20:18"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd data/input/RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input/RNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Drug_A",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input/RNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:20"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\ngenome.fas\nRNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd RNA_SEQ_SAMPLES/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "time": "2022-12-01:20:21"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:23"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data/input/RNA_SEQ_SAMPLES/Dcd ~/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "/home/jovyan/.offline.sh: line 354: cd: too many arguments",
+        "stdout": "",
+        "time": "2022-12-01:20:23"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:23"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd ~/data/input/RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:24"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:24"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Drug_A",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:25"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "../Drug_B/",
+        "full_command": "cd ../Drug_B/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:25"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "../../",
+        "full_command": "cd ../../",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:25"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\ngenome.fas\nRNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:25"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -a",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\ngenome.fas\nRNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:25"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd RNA_SEQ_SAMPLES/Drug_B",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:25"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls -a",
+        "stderr": "",
+        "stdout": "Drug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "./../Drug_A",
+        "full_command": "cd ./../Drug_A",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Drug_A\nDrug_B",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "..",
+        "full_command": "cd ..",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "Bash\nDiscovery\nDNASubway\ngenome.fas\nRNA_SEQ_SAMPLES",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Bash/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:26"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/data/input/Bash",
+        "time": "2022-12-01:20:27"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:27"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:28"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-01:20:31"
+      }]
+    },
+    "log_id": "6406489831cdc8e2baabf1bb55c770db7402111997feddd153a0e115eec30373",
+    "log_type": "Bash",
+    "machine_id": "a1294",
+    "session_id": "None",
+    "timestamp": "2022-12-02 20:42:31.293563"
+  }, {
+    "_id": "Bash:45e056b3-9fa5-4b1d-92f8-9abfbf597a80",
+    "_rev": "33-243aa986026265b6f15e0cd455341f3d",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2023-01-19 13:59:22.693349",
+    "log": {
+      "commands": [{
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "time": "2023-01-19:14:29"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir bin",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:29"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd work/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:30"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:30"
+      }, {
+        "command": "mkdir",
+        "file": "",
+        "filename": "",
+        "full_command": "mkdir Bash",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:32"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd Bash/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:32"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/work/Bash",
+        "time": "2023-01-19:14:32"
+      }, {
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2023-01-19:14:33"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:33"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/work/Bash",
+        "time": "2023-01-19:14:33"
+      }, {
+        "command": "pwd",
+        "file": "",
+        "filename": "",
+        "full_command": "pwd",
+        "stderr": "",
+        "stdout": "/home/jovyan/work/Bash",
+        "time": "2023-01-19:14:34"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls ~/data-store/data/input/Discovery/TSVFiles/",
+        "stderr": "",
+        "stdout": "",
+        "time": "2023-01-19:14:39"
+      }, {
+        "command": "touch",
+        "file": "",
+        "filename": "~/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv",
+        "full_command": "touch ~/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv",
+        "stderr": "touch: cannot touch '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Permission denied",
+        "stdout": "",
+        "time": "2023-01-19:14:40"
+      }]
+    },
+    "log_id": "f310fbeac6853eb621fdec11fbf18b37d4c3a6aa9e7f33f41f54ebfa00f38515",
+    "log_type": "Bash",
+    "machine_id": "a5cc4",
+    "session_id": "sdgeorge",
+    "timestamp": "2023-01-19 14:42:18.120106"
+  }, {
+    "_id": "Bash:45fb4c3a-6a18-45e2-8a09-d878c0e35347",
+    "_rev": "6-1aa39d4f2b466fcbfdc372bfe74d8d24",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-12-15 19:12:05.912220",
+    "log": {
+      "commands": [{
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2022-12-15:19:11"
+      }, {
+        "command": "ls",
+        "file": "",
+        "filename": "",
+        "full_command": "ls",
+        "stderr": "",
+        "stdout": "data\nhome\nstderr.txt\nstdout.txt\nSuperShell",
+        "time": "2022-12-15:19:11"
+      }, {
+        "command": "cd",
+        "file": "",
+        "filename": "",
+        "full_command": "cd",
+        "stderr": "",
+        "stdout": "",
+        "time": "2022-12-15:19:14"
+      }, {
+        "command": "clear",
+        "file": "",
+        "filename": "",
+        "full_command": "clear",
+        "stderr": "",
+        "stdout": "\u001b[H\u001b[2J\u001b[3J",
+        "time": "2022-12-15:19:16"
+      }]
+    },
+    "log_id": "7450c9f9ba0d2c95651dffecd26e1fb9d33247117dd9acc897e4ad591582c159",
+    "log_type": "Bash",
+    "machine_id": "aed0e",
+    "session_id": "None",
+    "timestamp": "2022-12-15 19:18:42.457909"
+  }, {
+    "_id": "Bash:5396f659-8c88-4ebd-a967-2a36742e0fb4",
+    "_rev": "1-8e45b3131d00eb4f0400a62941db34b6",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-12-15 20:09:56.838695",
+    "log": {
+      "commands": []
+    },
+    "log_id": "ee1a33a83e16f50e19693bb4fefdb2d9a26ba626f97a0d24322f17c5d78b687d",
+    "log_type": "Bash",
+    "machine_id": "4324b31f",
+    "session_id": "None",
+    "timestamp": "2022-12-15 20:09:56.838695"
+  }, {
+    "_id": "Bash:5657d40e-755a-482f-b4f1-bc29b0edeb7e",
+    "_rev": "1-f0610036b0a4af15ed2538efe65af25f",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2022-11-21 21:13:39.556649",
+    "log": {
+      "commands": []
+    },
+    "log_id": "63f8b84563a4b0527e3f1dee9db859800fb8e0782894cea9ab4ac2301de4898d",
+    "log_type": "Bash",
+    "machine_id": "abd49",
+    "session_id": "None",
+    "timestamp": "2022-11-21 21:13:39.556649"
+  }, {
+    "_id": "Bash:57777a82-b3e2-42a5-ac4a-b1a05364ef32",
+    "_rev": "1-e373e9718b71e1c0d77eb1fb674a3c99",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2023-01-19 16:06:50.248766",
+    "log": {
+      "commands": []
+    },
+    "log_id": "686a95ebc792a90bc9ae01ea365eea459974f94cf948c76ecd495705a0af55e8",
+    "log_type": "Bash",
+    "machine_id": "a7d15",
+    "session_id": "Unknown Cyverse ID",
+    "timestamp": "2023-01-19 16:06:50.248766"
+  }, {
+    "_id": "Bash:6733b682-70dd-4ed0-b112-5789bd6a1636",
+    "_rev": "1-d148b49d086194d692facd6b5a65ded9",
+    "course_id": "Cyverse-RNA-Tutorial",
+    "created_timestamp": "2023-01-24 20:41:48.286156",
+    "log": {
+      "commands": []
+    },
+    "log_id": "d786815fdedfd62dd6815814b2d692c79fe576293edfdb603029096f4141f432",
+    "log_type": "Bash",
+    "machine_id": "a3dc4",
+    "session_id": "sdgeorge",
+    "timestamp": "2023-01-24 20:41:48.286156"
+  }]
+}
