@@ -43,7 +43,7 @@ def send_to_chatgpt(commands):
     completion = client.chat.completions.create(
         model="gpt-4",
         messages=[
-            {"role": "system", "content": "Following this message, I will give you a sequence of commands and associated errors. For each command and error, I will also give you a history of commands executed before the error causing commands. Please indicate how they can fix the error based on the exercise that requires them to execute the associated command. Please provide one suggestion of a command on how to correct the error and enclose the command with angular brackets."},
+            {"role": "system", "content": "Following this message, I will give you a sequence of commands and associated errors. For each command and error, I will also give you a history of commands executed before the error causing commands. Please indicate how they can fix the error based on the exercise that requires them to execute the associated command. Please provide one suggestion of a command on how to correct the error and enclose the command type (e.g. ls, cd, mkdir are command types) with angular brackets."},
             {"role": "user", "content": messg},
         ]
     )
