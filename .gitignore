@@ -15,7 +15,7 @@ logs/
 
 Pull_logs.js
 
-error tree.xmind
+error_tree.xmind
 
 *.log
 npm-debug.log*
