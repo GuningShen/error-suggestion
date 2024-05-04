@@ -1,5 +1,22 @@
-# Logs
-logs
+# Output data
+*.pki
+response1.csv
+response2.csv
+response3.csv
+response4.csv
+sd_george.csv
+
+error_processed_data/
+
+# Raw data
+raw_data/
+
+logs/
+
+Pull_logs.js
+
+error tree.xmind
+
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -132,5 +149,3 @@ dist
 #Project specific dirs 
 .ipynb_checkpoints 
 **/.ipynb_checkpoints/*
-
-.env
