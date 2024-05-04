@@ -23,6 +23,7 @@
   "homepage": "https://github.com/GuningShen/cyverse_tutorial#readme",
   "dependencies": {
     "node-fetch": "^3.2.10",
-    "node-localstorage": "^2.2.1"
+    "node-localstorage": "^2.2.1",
+    "openai": "^4.40.2"
   }
 }

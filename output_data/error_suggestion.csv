@@ -1,0 +1,98 @@
+error,suggestion
+/bin/ls: cannot access 'RNA_SEQ_SAMPLES': No such file or directory,/usr/bin/which
+"/home/jovyan/.offline.sh: eval: line 354: unexpected EOF while looking for matching ``'
+/home/jovyan/.offline.sh: eval: line 355: syntax error: unexpected end of file",cd
+"/home/jovyan/.offline.sh: eval: line 368: unexpected EOF while looking for matching `""'
+/home/jovyan/.offline.sh: eval: line 369: syntax error: unexpected end of file",echo
+/home/jovyan/.offline.sh: line 354: cd: ...: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: ./../Drug_a: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: /home/jovyan/data/input/Bash: No such file or directory,ls
+/home/jovyan/.offline.sh: line 354: cd: Bash: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: RNA_SEQ_SAMPLES: No such file or directory,pwd
+/home/jovyan/.offline.sh: line 354: cd: StatParam: No such file or directory,ls
+/home/jovyan/.offline.sh: line 354: cd: data-store/data/input/RNA_SEQ_SAMPLES/: No such file or directory,ls
+/home/jovyan/.offline.sh: line 354: cd: gunings: No such file or directory,ls
+/home/jovyan/.offline.sh: line 354: cd: i: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: misc_child/: Not a directory,ls
+/home/jovyan/.offline.sh: line 354: cd: misc_child: Not a directory,ls
+/home/jovyan/.offline.sh: line 354: cd: ms: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: ou: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: put: No such file or directory,cd
+/home/jovyan/.offline.sh: line 354: cd: pwd: No such file or directory,which
+/home/jovyan/.offline.sh: line 354: cd: too many arguments,cd
+/home/jovyan/.offline.sh: line 354: cd: work: No such file or directory,ls
+/home/jovyan/.offline.sh: line 354: cd: xiaomajur: No such file or directory,ls
+/home/jovyan/.offline.sh: line 368: -l: command not found,ls
+/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/Discovery/TSVFiles/A1_abundance.tsv: Permission denied,ls
+/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES: Is a directory,ls
+/home/jovyan/.offline.sh: line 368: Discovery: command not found,ls
+/home/jovyan/.offline.sh: line 368: exut: command not found,exut
+/home/jovyan/.offline.sh: line 368: linked_hello.txt: command not found,cat
+/home/jovyan/.offline.sh: line 368: ls..: command not found,ls
+/home/jovyan/.offline.sh: line 368: lx: command not found,ls
+/home/jovyan/.offline.sh: line 368: misc_child/1: No such file or directory,cd
+/home/jovyan/.offline.sh: line 368: misc_child/echo_output.txt: No such file or directory,ls
+/home/jovyan/.offline.sh: line 368: move: command not found,mv
+/home/jovyan/.offline.sh: line 368: piso: command not found,ls
+/home/jovyan/.offline.sh: line 368: sl: command not found,ls
+/home/jovyan/.offline.sh: line 368: wpd: command not found,pwd
+cat: /home/jovyan/data-store/data/output/misc/misc_child: Is a directory,cat
+cat: cat: No such file or directory,ls
+cat: echo.out: No such file or directory,cat
+cat: hello.txt: No such file or directory,ls
+cat: hello.txt: Too many levels of symbolic links,ls
+cat: linked_hello.txt: No such file or directory,ls
+cat: misc_child: Is a directory,cat
+cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc',cp
+cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc/',cd
+cp: target 'goodbye.txt' is not a directory,ls
+ln: failed to create symbolic link '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': File exists,ls
+ln: failed to create symbolic link '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Input/output error,ln
+ln: failed to create symbolic link 'hello.txt': File exists,pwd
+ln: failed to create symbolic link 'linked_hello.txt': Input/output error,pwd
+ln: target '_hello.txt' is not a directory,ln
+ln: target 'linked_hello.txt' is not a directory,ln
+ln: target 'linked_misc_child' is not a directory,ln
+ls: cannot access '-': No such file or directory,ls
+"ls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory",ls
+ls: cannot access '..jovyan': No such file or directory,ls
+ls: cannot access './data/input/RNA_SEQ_SAMPLES': No such file or directory,ls
+ls: cannot access '/gunings/RNA_SEQ_SAMPLES': No such file or directory,ls
+ls: cannot access '/home/jovyan/RNA_SEQ_SAMPLES': No such file or directory,ls
+ls: cannot access '/home/jovyan/data-store/data/input/Discover': No such file or directory,ls
+ls: cannot access 'A_1_abundance.tsv': No such file or directory,ln
+ls: cannot access 'Discovery': No such file or directory,ls
+ls: cannot access 'Statparam': No such file or directory,cd
+ls: cannot access 'Stderr.txt': No such file or directory,ls
+ls: cannot access 'Stdout.txt': No such file or directory,clear
+ls: cannot access 'aa': No such file or directory,ls
+ls: cannot access 'copied_misc_child': No such file or directory,ls
+ls: cannot access 'd^t': No such file or directory,ls
+ls: cannot access 'data-store/data/input/D': No such file or directory,ls
+ls: cannot access 'data-store/data/input/D^t': No such file or directory,ls
+ls: cannot access 'data-store/data/input/D^t^t': No such file or directory,ls
+ls: cannot access 'data-store/data/input/Discov': No such file or directory,ls
+"ls: cannot access 'data/input/Discovery/ls': No such file or directory
+ls: cannot access '–l': No such file or directory",ls
+ls: cannot access 'gunings': No such file or directory,cd
+ls: cannot access 'gunings/RNA_SEQ_SAMPLES': No such file or directory,ls
+ls: cannot access 'home': No such file or directory,ls
+ls: cannot access 'renamed_misc_child': No such file or directory,cd
+ls: cannot access 'shortcut_misc_child': No such file or directory,cd
+ls: cannot access 'stderr.txtls': No such file or directory,ls
+ls: cannot access 'stdout.txt': No such file or directory,ls
+"ls: cannot access '–': No such file or directory
+ls: cannot access 'l': No such file or directory",ls
+ls: cannot access '–a': No such file or directory,ls
+ls: cannot access '–l': No such file or directory,ls
+"ls: cannot access '–l': No such file or directory
+ls: cannot access '/home/jovyan/*.err': No such file or directory",ls
+"ls: cannot access '–l': No such file or directory
+ls: cannot access '/home/jovyan/*.log': No such file or directory",ls
+"ls: invalid option -- '.'
+Try 'ls --help' for more information.",cd
+mkdir: cannot create directory ‘bin’: Permission denied,ls
+mkdir: cannot create directory ‘misc’: Permission denied,ls
+mkdir: cannot create directory ‘mschild’: Permission denied,ls
+touch: cannot touch '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Permission denied,ls

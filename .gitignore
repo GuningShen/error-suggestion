@@ -132,3 +132,5 @@ dist
 #Project specific dirs 
 .ipynb_checkpoints 
 **/.ipynb_checkpoints/*
+
+.env
