@@ -1,98 +1,98 @@
-error,correct_response,graph_prediction,graph_accuracy,chatgpt_prediction,chatgpt_accuracy
-/bin/ls: cannot access 'RNA_SEQ_SAMPLES': No such file or directory,/usr/bin/which,/usr/bin/which,1,ls,0
+error,correct_response,graph_prediction,graph_accuracy,chatgpt_prediction,chatgpt_section,chatgpt_accuracy
+/bin/ls: cannot access 'RNA_SEQ_SAMPLES': No such file or directory,/usr/bin/which,/usr/bin/which,1,ls,Linux: case matters,0
 "/home/jovyan/.offline.sh: eval: line 354: unexpected EOF while looking for matching ``'
-/home/jovyan/.offline.sh: eval: line 355: syntax error: unexpected end of file",cd,cd,1,ls -l data-store/data/input/Discovery/,0
+/home/jovyan/.offline.sh: eval: line 355: syntax error: unexpected end of file",cd,cd,1,ls,ls command,0
 "/home/jovyan/.offline.sh: eval: line 368: unexpected EOF while looking for matching `""'
-/home/jovyan/.offline.sh: eval: line 369: syntax error: unexpected end of file",echo,echo,1,Command type: ls,0
-/home/jovyan/.offline.sh: line 354: cd: ...: No such file or directory,cd,cd,1,ls,0
-/home/jovyan/.offline.sh: line 354: cd: ./../Drug_a: No such file or directory,cd,cd,1,cd,1
-/home/jovyan/.offline.sh: line 354: cd: /home/jovyan/data/input/Bash: No such file or directory,ls,ls,1,ls,1
-/home/jovyan/.offline.sh: line 354: cd: Bash: No such file or directory,cd,cd,1,cd,1
-/home/jovyan/.offline.sh: line 354: cd: RNA_SEQ_SAMPLES: No such file or directory,pwd,pwd,1,ls,0
-/home/jovyan/.offline.sh: line 354: cd: StatParam: No such file or directory,ls,ls,1,ls,1
-/home/jovyan/.offline.sh: line 354: cd: data-store/data/input/RNA_SEQ_SAMPLES/: No such file or directory,ls,ls,1,cat,0
-/home/jovyan/.offline.sh: line 354: cd: gunings: No such file or directory,ls,ls,1,cat,0
-/home/jovyan/.offline.sh: line 354: cd: i: No such file or directory,cd,cd,1,Command type: ls,0
-/home/jovyan/.offline.sh: line 354: cd: misc_child/: Not a directory,ls,ls,1,cd,0
-/home/jovyan/.offline.sh: line 354: cd: misc_child: Not a directory,ls,ls,1,cp -r,0
-/home/jovyan/.offline.sh: line 354: cd: ms: No such file or directory,cd,cd,1,cd,1
-/home/jovyan/.offline.sh: line 354: cd: ou: No such file or directory,cd,cd,1,rm,0
-/home/jovyan/.offline.sh: line 354: cd: put: No such file or directory,cd,cd,1,"cd, ls",0
-/home/jovyan/.offline.sh: line 354: cd: pwd: No such file or directory,which,which,1,ls,0
-/home/jovyan/.offline.sh: line 354: cd: too many arguments,cd,cd,1,cd,1
-/home/jovyan/.offline.sh: line 354: cd: work: No such file or directory,ls,ls,1,b,0
-/home/jovyan/.offline.sh: line 354: cd: xiaomajur: No such file or directory,ls,ls,1,cat misc_child/echo.out,0
-/home/jovyan/.offline.sh: line 368: -l: command not found,ls,ls,1,"""cat""",0
-/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/Discovery/TSVFiles/A1_abundance.tsv: Permission denied,ls,ls,1,cat,0
-/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES: Is a directory,ls,ls,1,Command Type: mv,0
-/home/jovyan/.offline.sh: line 368: Discovery: command not found,ls,ls,1,ln,0
-/home/jovyan/.offline.sh: line 368: exut: command not found,exut,exut,1,cp,0
-/home/jovyan/.offline.sh: line 368: linked_hello.txt: command not found,cat,cat,1,mkdir,0
-/home/jovyan/.offline.sh: line 368: ls..: command not found,ls,ls,1,ls,1
-/home/jovyan/.offline.sh: line 368: lx: command not found,ls,ls,1,cd,0
-/home/jovyan/.offline.sh: line 368: misc_child/1: No such file or directory,cd,cd,1,ls,0
-/home/jovyan/.offline.sh: line 368: misc_child/echo_output.txt: No such file or directory,ls,ls,1,mkdir ms,0
-/home/jovyan/.offline.sh: line 368: move: command not found,mv,mv,1,echo,0
-/home/jovyan/.offline.sh: line 368: piso: command not found,ls,ls,1,cat,0
-/home/jovyan/.offline.sh: line 368: sl: command not found,ls,ls,1,ls,1
-/home/jovyan/.offline.sh: line 368: wpd: command not found,pwd,pwd,1, mv ,0
-cat: /home/jovyan/data-store/data/output/misc/misc_child: Is a directory,cat,cat,1,ls,0
-cat: cat: No such file or directory,ls,ls,1,cd ..; ls,0
-cat: echo.out: No such file or directory,cat,cat,1,ls,0
-cat: hello.txt: No such file or directory,ls,ls,1,ls,1
-cat: hello.txt: Too many levels of symbolic links,ls,ls,1,ln,0
-cat: linked_hello.txt: No such file or directory,ls,ls,1,cd,0
-cat: misc_child: Is a directory,cat,cat,1,ln,0
-cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc',cp,cp,1,cat,0
-cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc/',cd,cd,1,rm,0
-cp: target 'goodbye.txt' is not a directory,ls,ls,1,cat,0
-ln: failed to create symbolic link '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': File exists,ls,ls,1,p,0
-ln: failed to create symbolic link '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Input/output error,ln,ln,1,cp,0
-ln: failed to create symbolic link 'hello.txt': File exists,pwd,pwd,1,cp,0
-ln: failed to create symbolic link 'linked_hello.txt': Input/output error,pwd,pwd,1,mkdir,0
-ln: target '_hello.txt' is not a directory,ln,ln,1,ls,0
-ln: target 'linked_hello.txt' is not a directory,ln,ln,1,mkdir,0
-ln: target 'linked_misc_child' is not a directory,ln,ln,1,ls,0
-ls: cannot access '-': No such file or directory,ls,ls,1,cd,0
+/home/jovyan/.offline.sh: eval: line 369: syntax error: unexpected end of file",echo,echo,1,ls,ls command,0
+/home/jovyan/.offline.sh: line 354: cd: ...: No such file or directory,cd,cd,1,ls,ls command,0
+/home/jovyan/.offline.sh: line 354: cd: ./../Drug_a: No such file or directory,cd,cd,1,cd,Change to child and parent directory,1
+/home/jovyan/.offline.sh: line 354: cd: /home/jovyan/data/input/Bash: No such file or directory,ls,ls,1,ls -a,ls command,0
+/home/jovyan/.offline.sh: line 354: cd: Bash: No such file or directory,cd,cd,1,cd,"""Change to child and parent directory""",1
+/home/jovyan/.offline.sh: line 354: cd: RNA_SEQ_SAMPLES: No such file or directory,pwd,pwd,1,ls,ls command,0
+/home/jovyan/.offline.sh: line 354: cd: StatParam: No such file or directory,ls,ls,1,ls,ls command,1
+/home/jovyan/.offline.sh: line 354: cd: data-store/data/input/RNA_SEQ_SAMPLES/: No such file or directory,ls,ls,1,cat,I/O redirection vs file arguments,0
+/home/jovyan/.offline.sh: line 354: cd: gunings: No such file or directory,ls,ls,1,cat,Star expansion,0
+/home/jovyan/.offline.sh: line 354: cd: i: No such file or directory,cd,cd,1,ls,File attributes and long listing,0
+/home/jovyan/.offline.sh: line 354: cd: misc_child/: Not a directory,ls,ls,1,ln,Linking files,0
+/home/jovyan/.offline.sh: line 354: cd: misc_child: Not a directory,ls,ls,1,cp,"Copying moving, linking directories",0
+/home/jovyan/.offline.sh: line 354: cd: ms: No such file or directory,cd,cd,1,cd,ls command,1
+/home/jovyan/.offline.sh: line 354: cd: ou: No such file or directory,cd,cd,1,rm,Linking files,0
+/home/jovyan/.offline.sh: line 354: cd: put: No such file or directory,cd,cd,1,cd,"""Linking discovery TSV files in Bash""",1
+/home/jovyan/.offline.sh: line 354: cd: pwd: No such file or directory,which,which,1,ls,Many ways to specify directories,0
+/home/jovyan/.offline.sh: line 354: cd: too many arguments,cd,cd,1,cd,Change to child and parent directory,1
+/home/jovyan/.offline.sh: line 354: cd: work: No such file or directory,ls,ls,1,cd,Change to child and parent directory,0
+/home/jovyan/.offline.sh: line 354: cd: xiaomajur: No such file or directory,ls,ls,1,cd,(cat) displaying files,0
+/home/jovyan/.offline.sh: line 368: -l: command not found,ls,ls,1,cat,(cat) displaying files,0
+/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/Discovery/TSVFiles/A1_abundance.tsv: Permission denied,ls,ls,1,cat,Star expansion,0
+/home/jovyan/.offline.sh: line 368: /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES: Is a directory,ls,ls,1,Command type: mv,Change to arbitrary and home directory,0
+/home/jovyan/.offline.sh: line 368: Discovery: command not found,ls,ls,1,rm,Linking files,0
+/home/jovyan/.offline.sh: line 368: exut: command not found,exut,exut,1,cp,"Copying moving, linking directories",0
+/home/jovyan/.offline.sh: line 368: linked_hello.txt: command not found,cat,cat,1,Command,ls command,0
+/home/jovyan/.offline.sh: line 368: ls..: command not found,ls,ls,1,ls,Recursion and -R/-r option,1
+/home/jovyan/.offline.sh: line 368: lx: command not found,ls,ls,1,cd,Change to child and parent directory,0
+/home/jovyan/.offline.sh: line 368: misc_child/1: No such file or directory,cd,cd,1,ls,Change to arbitrary and home directory,0
+/home/jovyan/.offline.sh: line 368: misc_child/echo_output.txt: No such file or directory,ls,ls,1,ls,Change to child and parent directory,1
+/home/jovyan/.offline.sh: line 368: move: command not found,mv,mv,1,echo,Output redirection,0
+/home/jovyan/.offline.sh: line 368: piso: command not found,ls,ls,1,find ./ -type f -exec cat {} \;,Star expansion,0
+/home/jovyan/.offline.sh: line 368: sl: command not found,ls,ls,1,ls misc_child,(cat) displaying files,0
+/home/jovyan/.offline.sh: line 368: wpd: command not found,pwd,pwd,1,mkdir,"""Change to child and parent directory""",0
+cat: /home/jovyan/data-store/data/output/misc/misc_child: Is a directory,cat,cat,1,ls,Change to child and parent directory,0
+cat: cat: No such file or directory,ls,ls,1,ls,"""Change to child and parent directory""",1
+cat: echo.out: No such file or directory,cat,cat,1,cd,Change to child and parent directory,0
+cat: hello.txt: No such file or directory,ls,ls,1,mkdir,Change to child and parent directory,0
+cat: hello.txt: Too many levels of symbolic links,ls,ls,1,ln,Linking files,0
+cat: linked_hello.txt: No such file or directory,ls,ls,1,ln,Linking files,0
+cat: misc_child: Is a directory,cat,cat,1,ln,Linking files,0
+cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc',cp,cp,1,ln -s,Linking files,0
+cp: -r not specified; omitting directory '/home/jovyan/data-store/data/output/misc/',cd,cd,1,rm,Linking files,0
+cp: target 'goodbye.txt' is not a directory,ls,ls,1,cat,(cat) displaying files,0
+ln: failed to create symbolic link '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': File exists,ls,ls,1,pwd,pwd (working directory),0
+ln: failed to create symbolic link '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Input/output error,ln,ln,1,cp,"Copying moving, linking directories",0
+ln: failed to create symbolic link 'hello.txt': File exists,pwd,pwd,1,cp,"Copying moving, linking directories",0
+ln: failed to create symbolic link 'linked_hello.txt': Input/output error,pwd,pwd,1,ls,Linking files,0
+ln: target '_hello.txt' is not a directory,ln,ln,1,cd,ls command,0
+ln: target 'linked_hello.txt' is not a directory,ln,ln,1,cp -R misc_child_another_child copied_misc_child,"""Copying moving, linking directories""",0
+ln: target 'linked_misc_child' is not a directory,ln,ln,1,ls,Moving/renaming files,0
+ls: cannot access '-': No such file or directory,ls,ls,1,cd ..,ls command,0
 "ls: cannot access '-': No such file or directory
-ls: cannot access 'l': No such file or directory",ls,ls,1,cd,0
-ls: cannot access '..jovyan': No such file or directory,ls,ls,1,cd,0
-ls: cannot access './data/input/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,touch,0
-ls: cannot access '/gunings/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,cat,0
-ls: cannot access '/home/jovyan/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,find,0
-ls: cannot access '/home/jovyan/data-store/data/input/Discover': No such file or directory,ls,ls,1,cd,0
-ls: cannot access 'A_1_abundance.tsv': No such file or directory,ln,ln,1,find,0
-ls: cannot access 'Discovery': No such file or directory,ls,ls,1,touch,0
-ls: cannot access 'Statparam': No such file or directory,cd,cd,1,cat,0
-ls: cannot access 'Stderr.txt': No such file or directory,ls,ls,1,,0
-ls: cannot access 'Stdout.txt': No such file or directory,clear,clear,1,ln,0
-ls: cannot access 'aa': No such file or directory,ls,ls,1,ls,1
-ls: cannot access 'copied_misc_child': No such file or directory,ls,ls,1,ls,1
-ls: cannot access 'd^t': No such file or directory,ls,ls,1,cd,0
-ls: cannot access 'data-store/data/input/D': No such file or directory,ls,ls,1,cd,0
-ls: cannot access 'data-store/data/input/D^t': No such file or directory,ls,ls,1,echo,0
-ls: cannot access 'data-store/data/input/D^t^t': No such file or directory,ls,ls,1,cat,0
-ls: cannot access 'data-store/data/input/Discov': No such file or directory,ls,ls,1,"touch, ln",0
+ls: cannot access 'l': No such file or directory",ls,ls,1,ls,Change to child and parent directory,1
+ls: cannot access '..jovyan': No such file or directory,ls,ls,1,cd,Change to child and parent directory,0
+ls: cannot access './data/input/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,touch,Linking files,0
+ls: cannot access '/gunings/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,cat,Linking files,0
+ls: cannot access '/home/jovyan/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,ls,(cat) displaying files,1
+ls: cannot access '/home/jovyan/data-store/data/input/Discover': No such file or directory,ls,ls,1,ls,(cat) displaying files,1
+ls: cannot access 'A_1_abundance.tsv': No such file or directory,ln,ln,1,,"""(cat) displaying files""",0
+ls: cannot access 'Discovery': No such file or directory,ls,ls,1,cd,(cat) displaying files,0
+ls: cannot access 'Statparam': No such file or directory,cd,cd,1,[ln] -s original.txt linked_hello.txt,Linking files,0
+ls: cannot access 'Stderr.txt': No such file or directory,ls,ls,1,chmod,Linking discovery TSV files in Bash,0
+ls: cannot access 'Stdout.txt': No such file or directory,clear,clear,1,Sudo,Linking discovery TSV files in Bash,0
+ls: cannot access 'aa': No such file or directory,ls,ls,1,ls,ls command,1
+ls: cannot access 'copied_misc_child': No such file or directory,ls,ls,1,ls,ls command,1
+ls: cannot access 'd^t': No such file or directory,ls,ls,1,ls,Change to child and parent directory,1
+ls: cannot access 'data-store/data/input/D': No such file or directory,ls,ls,1,ls,Change to child and parent directory,1
+ls: cannot access 'data-store/data/input/D^t': No such file or directory,ls,ls,1,echo,Echo,0
+ls: cannot access 'data-store/data/input/D^t^t': No such file or directory,ls,ls,1,ls,Standard input/output,1
+ls: cannot access 'data-store/data/input/Discov': No such file or directory,ls,ls,1,rm,"""Linking files""",0
 "ls: cannot access 'data/input/Discovery/ls': No such file or directory
-ls: cannot access '–l': No such file or directory",ls,ls,1,rm,0
-ls: cannot access 'gunings': No such file or directory,cd,cd,1,ls,0
-ls: cannot access 'gunings/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,cp -r,0
-ls: cannot access 'home': No such file or directory,ls,ls,1,mkdir,0
-ls: cannot access 'renamed_misc_child': No such file or directory,cd,cd,1,ls,0
-ls: cannot access 'shortcut_misc_child': No such file or directory,cd,cd,1,ls,0
-ls: cannot access 'stderr.txtls': No such file or directory,ls,ls,1,sudo mkdir misc,0
-ls: cannot access 'stdout.txt': No such file or directory,ls,ls,1,sudo,0
+ls: cannot access '–l': No such file or directory",ls,ls,1,ln,Linking files,0
+ls: cannot access 'gunings': No such file or directory,cd,cd,1,ls,ls command,0
+ls: cannot access 'gunings/RNA_SEQ_SAMPLES': No such file or directory,ls,ls,1,cp -r ~/data-store/data/output/misc ~/misc,Creating directories,0
+ls: cannot access 'home': No such file or directory,ls,ls,1,ls,ls command,1
+ls: cannot access 'renamed_misc_child': No such file or directory,cd,cd,1,ls,Change to arbitrary and home directory,0
+ls: cannot access 'shortcut_misc_child': No such file or directory,cd,cd,1,cd,Change to child and parent directory,1
+ls: cannot access 'stderr.txtls': No such file or directory,ls,ls,1,sudo mkdir misc,Creating directories,0
+ls: cannot access 'stdout.txt': No such file or directory,ls,ls,1,mkdir,Creating directories,0
 "ls: cannot access '–': No such file or directory
-ls: cannot access 'l': No such file or directory",ls,ls,1,ls,1
-ls: cannot access '–a': No such file or directory,ls,ls,1,cd,0
-ls: cannot access '–l': No such file or directory,ls,ls,1,touch,0
+ls: cannot access 'l': No such file or directory",ls,ls,1,ls,pwd (working directory),1
+ls: cannot access '–a': No such file or directory,ls,ls,1,cd,ls command,0
+ls: cannot access '–l': No such file or directory,ls,ls,1,,ls command,0
 "ls: cannot access '–l': No such file or directory
-ls: cannot access '/home/jovyan/*.err': No such file or directory",ls,ls,1,ls,1
+ls: cannot access '/home/jovyan/*.err': No such file or directory",ls,ls,1,ls,ls command,1
 "ls: cannot access '–l': No such file or directory
-ls: cannot access '/home/jovyan/*.log': No such file or directory",ls,ls,1,ls,1
+ls: cannot access '/home/jovyan/*.log': No such file or directory",ls,ls,1,ls,ls command,1
 "ls: invalid option -- '.'
-Try 'ls --help' for more information.",cd,cd,1,ls,0
-mkdir: cannot create directory ‘bin’: Permission denied,ls,ls,1,cat,0
-mkdir: cannot create directory ‘misc’: Permission denied,ls,ls,1,ls,1
-mkdir: cannot create directory ‘mschild’: Permission denied,ls,ls,1,ls -l ~/*.txt,0
-touch: cannot touch '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Permission denied,ls,ls,1,ls,1
+Try 'ls --help' for more information.",cd,cd,1,ls,Change to arbitrary and home directory,0
+mkdir: cannot create directory ‘bin’: Permission denied,ls,ls,1,ls,(cat) displaying files,1
+mkdir: cannot create directory ‘misc’: Permission denied,ls,ls,1,ls,ls command,1
+mkdir: cannot create directory ‘mschild’: Permission denied,ls,ls,1,ls,ls command,1
+touch: cannot touch '/home/jovyan/data-store/data/input/Discovery/TSVFiles/A_1_abundance.tsv': Permission denied,ls,ls,1,ls -l *.txt,ls command,0

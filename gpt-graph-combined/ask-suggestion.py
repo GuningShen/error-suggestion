@@ -3,6 +3,7 @@ from graph import error_window, construct_graph, solution_prediction
 import os
 import pandas as pd
 import sys
+import openai
 
 def main():
     # Check if the file path argument is passed
@@ -34,6 +35,7 @@ def main():
     solutions['graph_prediction'] = [""] * len(suggestion)
     solutions['graph_accuracy'] = [0] * len(suggestion)
     solutions['chatgpt_prediction'] = [""] * len(suggestion)
+    solutions['chatgpt_section'] = [""] * len(suggestion)
     solutions['chatgpt_accuracy'] = [0] * len(suggestion)
 
     graph_solution(error, suggestion, solutions)
@@ -60,12 +62,26 @@ def graph_solution(error, suggestion, solutions):
 
 def chatgpt_solution(error, suggestion, solutions):
     ch_window = chat_window(error)
+    
+    # file_path = "../input_data/tutorial-noquiz.txt"
+    # response = openai.File.create(
+    # file=open(file_path, "rb"),
+    # purpose="answers"
+    # )
+
+    # file_id = response['id']
+    # print(f"Uploaded file ID: {file_id}")
+
+    # Read the file content into a string
+    # with open(file_path, "r") as file:
+    #     bash_tutorial_content = file.read()
 
     # Send the error window to ChatGPT
     for i in range(len(suggestion)):
-        prediction = send_to_chatgpt(ch_window[i])
+        prediction, section = send_to_chatgpt(ch_window[i])
         accuracy = compute_accuracy(prediction, suggestion["suggestion"][i])
         solutions.loc[i, 'chatgpt_prediction'] = prediction
+        solutions.loc[i, 'chatgpt_section'] = section
         solutions.loc[i, 'chatgpt_accuracy'] = accuracy
 
 def compute_accuracy(prediction, answer):
