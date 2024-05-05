@@ -62,19 +62,6 @@ def graph_solution(error, suggestion, solutions):
 
 def chatgpt_solution(error, suggestion, solutions):
     ch_window = chat_window(error)
-    
-    # file_path = "../input_data/tutorial-noquiz.txt"
-    # response = openai.File.create(
-    # file=open(file_path, "rb"),
-    # purpose="answers"
-    # )
-
-    # file_id = response['id']
-    # print(f"Uploaded file ID: {file_id}")
-
-    # Read the file content into a string
-    # with open(file_path, "r") as file:
-    #     bash_tutorial_content = file.read()
 
     # Send the error window to ChatGPT
     for i in range(len(suggestion)):
