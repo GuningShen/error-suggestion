@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 **Part 1: Graph-ChatGPT-Combined Error Suggestion Tool**
+## 🚀 **New: Graph-ChatGPT-Combined Error Suggestion Tool**
 A tool that leverages graph algorithms and ChatGPT to diagnose and suggest fixes for command-line errors.
 
 ### **Steps to Run the Program**
@@ -18,13 +18,16 @@ A tool that leverages graph algorithms and ChatGPT to diagnose and suggest fixes
    ```
 2. **Execute the Main Program:**
    ```bash
-   python compared.py ../output_data/cleaned_data_02.csv ../output_data/error_suggestion.csv
+   python ask-suggestion.py ../input_data/cleaned_data_02.csv ../input_data/error_suggestion.csv
    ```
 3. **Locate the Output** in `../output_data/solutions.csv`.
 
+### **Data preparation**
+To run the program, input files could be prepared by programs in two jupyter notebooks in the `notebook` folder. `cleaned_data_02.csv` data is processed by `new_log_processor.ipynb` and `error_suggestion.csv` is processed by `new_error_graph.ipynb`.
+
 ---
 
-## 🖥 **Part 2: Graph-Based Analysis**
+## 🖥 **Original: Graph-Based Analysis**
 ### 🔍 **Repository Focus**
 - **Version 1** of the repository is dedicated to error analysis via graph algorithms.
   Check out the original version [here](https://github.com/GuningShen/cyverse_error_analysis/tree/main).
